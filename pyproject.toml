@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seismic-damage"
+version = "0.1.0"
+description = "Multimodal seismic damage assessment with independent RAG and VLM pipelines"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.6.0",
+  "pydantic-settings>=2.2.0",
+  "python-dotenv>=1.0.0",
+  "PyYAML>=6.0.1",
+  "typing-extensions>=4.9.0",
+  "numpy>=1.26.0",
+  "scipy>=1.12.0",
+  "pandas>=2.2.0",
+]
+
+[project.optional-dependencies]
+rag = [
+  "langchain>=0.1.0",
+  "langchain-community>=0.0.20",
+  "chromadb>=0.4.22",
+  "sentence-transformers>=2.3.0",
+]
+vlm = [
+  "openai>=1.12.0",
+  "pillow>=10.2.0",
+  "httpx>=0.26.0",
+]
+dev = [
+  "pytest>=8.0.0",
+  "pytest-cov>=4.1.0",
+  "mypy>=1.8.0",
+  "ruff>=0.2.0",
+  "structlog>=24.1.0",
+  "rich>=13.7.0",
+]
+all = ["seismic-damage[rag,vlm,dev]"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+packages = ["seismic_damage"]
+mypy_path = "src"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

@@ -1,0 +1,75 @@
+# Default configuration for multimodal seismic damage assessment.
+# Environment variables (see .env.example) override these values.
+
+app:
+  name: seismic-damage-assessment
+  version: "0.1.0"
+  env: development
+  log_level: INFO
+
+paths:
+  data_dir: data
+  knowledge_dir: data/knowledge
+  raw_dir: data/raw
+  processed_dir: data/processed
+
+rag:
+  enabled: true
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  vector_store_path: data/processed/vector_store
+  top_k: 5
+  chunk_size: 512
+  chunk_overlap: 64
+  collection_name: seismic_knowledge
+
+vlm:
+  enabled: true
+  provider: openai
+  model: gpt-4o
+  max_tokens: 2048
+  temperature: 0.0
+  supported_formats:
+    - jpg
+    - jpeg
+    - png
+    - webp
+    - tiff
+
+llm:
+  provider: openai
+  model: gpt-4o
+  temperature: 0.0
+  max_tokens: 4096
+
+extraction:
+  # Building / seismic parameters expected from multimodal fusion
+  required_parameters:
+    - building_type
+    - number_of_stories
+    - year_built
+    - lateral_system
+    - material
+  optional_parameters:
+    - floor_area_m2
+    - occupancy
+    - soft_story
+    - retrofitted
+    - observed_damage_state
+
+validation:
+  strict: true
+  min_confidence: 0.5
+  cross_check_rag_vlm: true
+
+fragility:
+  method: lognormal  # lognormal | empirical | bayesian
+  n_samples: 10000
+  random_seed: 42
+  damage_states:
+    - none
+    - slight
+    - moderate
+    - extensive
+    - complete
+  intensity_measure: PGA  # PGA | Sa | PGV
+  intensity_unit: g

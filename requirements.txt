@@ -1,0 +1,22 @@
+# Core data science
+pandas
+numpy
+scipy
+matplotlib
+scikit-learn
+
+# RAG
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+
+# Validation and configuration
+pydantic
+python-dotenv
+
+# PDF processing
+pymupdf
+
+# Testing
+pytest
