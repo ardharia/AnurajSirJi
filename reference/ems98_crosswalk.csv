@@ -1,0 +1,16 @@
+material_category,ems98_typology,ems98_most_likely_class,ems98_probable_range,ems98_exceptional_range,is13935_type,ndma_typology_code,ndma_typology_name,notes,source_document,source_location
+masonry,Rubble stone / fieldstone,A,A,B,A,RRSM,Random Rubble Stone Masonry,Undressed stones with poor/no mortar and flexible wooden floors,EMS_98;IS_13935_2009;NDMA_RVS_Primer,EMS-98 p.14 p.34; IS 13935 Table 8 p.28; NDMA Annexure B p.39
+masonry,Adobe (earth brick),A,A-B,,A / A+,MH,Mud House,Stiff weak clay/mud walls; reaches B with timber frame reinforcement,EMS_98;IS_13935_2009;NDMA_RVS_Primer,EMS-98 p.14 p.34; IS 13935 Table 8 p.28; NDMA Annexure B p.44
+masonry,Simple stone,B,B,A,,RRSM,Random Rubble Stone Masonry,Hewn/dressed stones tied at corners; drops to A if mortar decayed,EMS_98;IS_13935_2009,EMS-98 p.14 p.35; IS 13935 Table 8 p.28
+masonry,Massive stone,C,B-C,D,,,Not mapped to NDMA,Large ashlar blocks / monumental structures,EMS_98,EMS-98 p.14 p.35
+masonry,Unreinforced brick / concrete blocks,B,B,A-C,B,BCBM,Burnt Clay Brick Masonry,Flexible floors; drops to A with cavities/poor mortar; reaches C with high standards,EMS_98;IS_13935_2009;NDMA_RVS_Primer,EMS-98 p.14 p.35; IS 13935 Table 8 p.28; NDMA Annexure B p.31
+masonry,Unreinforced brick with RC floors,C,B-C,D,C,BCBM,Burnt Clay Brick Masonry (with RC slab),Rigid RC floor with ring beams creates 3D box system,EMS_98;IS_13935_2009;NDMA_RVS_Primer,EMS-98 p.14 p.36; IS 13935 Table 8 p.29; NDMA Annexure B p.31
+masonry,Reinforced / confined masonry,D,C-E,,D,CM,Confined Masonry,Embedded vertical/horizontal steel or confined on 4 sides by tie-columns/beams,EMS_98;IS_13935_2009;NDMA_RVS_Primer,EMS-98 p.14 p.36; IS 13935 Table 8 p.29; NDMA Annexure B p.35
+rc,RC frame without ERD,C,B-C,A-D,,RC,Reinforced Concrete,Huge scatter; drops to A with soft storeys / short columns,EMS_98;NDMA_RVS_Primer,EMS-98 p.14 p.37-38; NDMA Annexure B p.27
+rc,RC frame with moderate ERD (ERD-M),D,D-E,C,,RC,Reinforced Concrete,Partial ductility detailing; base shear ~5-7% g,EMS_98,EMS-98 p.14 pp.44-46
+rc,RC frame with high ERD (ERD-H),E,E-F,D,,RC,Reinforced Concrete,Capacity design with ductile plastic hinges; base shear ~8-12% g,EMS_98,EMS-98 p.14 pp.45-46
+rc,RC walls without ERD,C,C-D,B,,RC,Reinforced Concrete,Shear walls with L/t>4; high lateral stiffness,EMS_98,EMS-98 p.14 p.38
+rc,RC walls with moderate ERD,D,D-E,C,,RC,Reinforced Concrete,Ductile coupled walls with energy-dissipating coupling beams,EMS_98,EMS-98 p.14 pp.38 pp.46
+rc,RC walls with high ERD,E,E-F,D,,RC,Reinforced Concrete,High ductility with dense boundary elements,EMS_98,EMS-98 p.14 pp.38 pp.46
+steel,Steel structures,E,D-E,C-F,,,Not in NDMA/IS13935 scope,Moment-resisting or braced frames; K-bracing drops to C,EMS_98,EMS-98 p.14 p.39
+wood,Timber structures,D,C-E,B,,DD;EH,Dhajji Dewari; Ekra House,High innate flexibility; drops to B-C if decayed or weak joints,EMS_98;NDMA_RVS_Primer,EMS-98 p.14 pp.39-40; NDMA Annexure B pp.48-55

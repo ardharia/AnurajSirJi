@@ -12,6 +12,7 @@ from seismic_damage.schemas.damage import ObservedDamage
 from seismic_damage.schemas.damage_assessment import DamageAssessment
 from seismic_damage.schemas.extraction import ExtractionResult
 from seismic_damage.schemas.fragility import FragilityResult
+from seismic_damage.schemas.rag import RAGCitation
 
 
 class RAGDocument(BaseModel):
@@ -31,6 +32,9 @@ class RAGResult(BaseModel):
     documents: list[RAGDocument] = Field(default_factory=list)
     synthesized_context: str | None = None
     extracted_hints: dict[str, Any] = Field(default_factory=dict)
+    answer: str | None = None
+    citations: list[RAGCitation] = Field(default_factory=list)
+    evidence_sufficient: bool = False
 
 
 class VLMObservation(BaseModel):

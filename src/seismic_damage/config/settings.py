@@ -12,7 +12,8 @@ from pydantic import BaseModel, Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 # Project root: src/seismic_damage/config -> parents[3]
-_PROJECT_ROOT = Path(__file__).resolve().parents[3]
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+_PROJECT_ROOT = PROJECT_ROOT
 _DEFAULT_CONFIG_PATH = _PROJECT_ROOT / "config" / "defaults.yaml"
 
 
@@ -58,6 +59,8 @@ class RAGConfig(BaseModel):
     chunk_size: int = Field(default=512, ge=64)
     chunk_overlap: int = Field(default=64, ge=0)
     collection_name: str = "seismic_knowledge"
+    min_score: float = Field(default=0.25, ge=0.0, le=1.0)
+    refuse_if_insufficient: bool = True
 
 
 class VLMConfig(BaseModel):

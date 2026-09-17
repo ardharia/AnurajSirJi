@@ -19,6 +19,13 @@ from seismic_damage.schemas.fragility import (
     FragilityInput,
     FragilityResult,
 )
+from seismic_damage.schemas.normalized import (
+    DamageAttributes,
+    NormalizedAssessmentRecord,
+    ProvenanceInfo,
+    TypologyAttributes,
+    VulnerabilityAttributes,
+)
 from seismic_damage.schemas.pipeline import (
     AssessmentRequest,
     AssessmentResult,
@@ -36,18 +43,23 @@ __all__ = [
     "CrackPattern",
     "CrackSeverity",
     "DamageAssessment",
+    "DamageAttributes",
     "ExtractionResult",
     "FragilityCurve",
     "FragilityInput",
     "FragilityResult",
     "LateralSystem",
     "Material",
+    "NormalizedAssessmentRecord",
     "ObservedDamage",
     "ParameterValue",
+    "ProvenanceInfo",
     "RAGDocument",
     "RAGResult",
     "SoilType",
     "SourceModality",
+    "TypologyAttributes",
     "VLMObservation",
     "VLMResult",
+    "VulnerabilityAttributes",
 ]

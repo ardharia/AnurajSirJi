@@ -1,0 +1,54 @@
+parameter_id,parameter_name,category,domain,data_type,allowed_values,unit,description,source_document,source_location,assessment_phase
+P001,building_typology,building_typology,structural_system,categorical,"RC;BCBM;CM;RRSM;MH;DD;EH",,Primary building typology classification for Indian buildings,NDMA_RVS_Primer,Ch.3 pp.17 / Annexure B pp.26-55,pre_earthquake
+P002,structural_system,building_typology,structural_system,categorical,"moment_frame;moment_frame_with_braces;moment_frame_with_shear_walls;flat_slab;load_bearing_masonry;confined_masonry;timber_frame;bamboo_frame",,Lateral-force-resisting structural system,NDMA_RVS_Primer,Form A:RC p.27 / Form A:BCBM p.31 / Form A:CM p.35,pre_earthquake
+P003,material_type,building_typology,structural_system,categorical,"reinforced_concrete;burnt_clay_brick;cement_block;stone_block;mud;timber;bamboo;mixed",,Primary structural material,NDMA_RVS_Primer,Forms A:RC-EH pp.27-55,pre_earthquake
+P004,mortar_type,building_typology,construction_details,categorical,"cement;lime;mud;none",,Mortar used in masonry construction,NDMA_RVS_Primer,Form A:BCBM p.31 / Form A:RRSM p.39,pre_earthquake
+P005,number_of_stories,building_typology,geometry,integer,,,Number of storeys above ground,NDMA_RVS_Primer,All Forms A pp.27-55,pre_earthquake
+P006,floor_type,building_typology,structural_system,categorical,"rc_slab;precast_with_screed;precast_concrete;timber_planks;timber_with_mud;timber_with_stone;brick_coba",,Floor diaphragm construction type,NDMA_RVS_Primer,Forms A:RC-EH pp.27-55,pre_earthquake
+P007,roof_geometry,building_typology,geometry,categorical,"flat;pitched;hipped;split",,Roof geometric form,NDMA_RVS_Primer,Form A:RC p.27,pre_earthquake
+P008,roof_material,building_typology,structural_system,categorical,"rc_slab;clay_tiles;cgi_sheets;wood_planks;thatch;stone_slabs",,Roof covering material,NDMA_RVS_Primer,Forms A:RC-EH pp.27-55,pre_earthquake
+P009,occupancy,building_typology,use,categorical,"residential;educational;lifeline;commercial;office;mixed_use;industrial;other",,Building occupancy / use category,NDMA_RVS_Primer,All Forms A pp.27-55,pre_earthquake
+P010,year_built,building_typology,age,integer,,years,Year of original construction,NDMA_RVS_Primer,All Forms A pp.27-55,pre_earthquake
+P011,seismic_zone,vulnerability,hazard,categorical,"II;III;IV;V",,Indian seismic zone per IS 1893,NDMA_RVS_Primer,Tables 4-6 p.16 / IS 13935 Table 2 p.7,pre_earthquake
+P012,soil_type,vulnerability,geotechnical,categorical,"hard;medium;soft;liquefiable",,Foundation soil classification,NDMA_RVS_Primer,Form A:RC p.27 / IS 13935 Forms 1-4 pp.33-36,pre_earthquake
+P013,soft_story,vulnerability,configuration,boolean,,,Open ground or intermediate storey present,NDMA_RVS_Primer,Form A:RC RED 3.3 p.27 / EMS-98 p.37,pre_earthquake
+P014,floating_columns,vulnerability,configuration,boolean,,,Columns supported on transfer beams not continuing to foundation,NDMA_RVS_Primer,Form A:RC RED 3.6 p.27,pre_earthquake
+P015,plan_irregularity,vulnerability,configuration,boolean,,,Asymmetric or re-entrant plan shape (L/U/T/H),NDMA_RVS_Primer,Form A:RC RED 3.7 p.27 / IS 13935 Table 5 p.9,pre_earthquake
+P016,vertical_irregularity,vulnerability,configuration,boolean,,,Setback at plinth / heavier upper storeys / mass irregularity,NDMA_RVS_Primer,Form A:RC RED 3.4 p.27 / IS 13935 Table 10 Note 2 p.30,pre_earthquake
+P017,short_columns,vulnerability,configuration,boolean,,,Trapped or stub columns due to partial-height infills,NDMA_RVS_Primer,Form A:RC RED 3.5 p.27,pre_earthquake
+P018,large_overhangs,vulnerability,configuration,boolean,,,Unanchored heavy projections / balconies / sunshades,NDMA_RVS_Primer,Form A:RC RED 3.8 p.27,pre_earthquake
+P019,pounding_risk,vulnerability,siting,boolean,,,Building adjoins another with no seismic gap,NDMA_RVS_Primer,Form A:RC YELLOW 5.2 p.28,pre_earthquake
+P020,slope_hazard,vulnerability,siting,boolean,,,Built on or adjacent to unstable hill slope,NDMA_RVS_Primer,Form A:RC RED 1.1 p.27,pre_earthquake
+P021,liquefaction_risk,vulnerability,siting,boolean,,,Built on liquefiable soil,NDMA_RVS_Primer,Form A:RC RED 2.1 p.27 / IS 13935 Forms pp.33-36,pre_earthquake
+P022,seismic_bands_present,vulnerability,structural_details,boolean,,,Continuous seismic bands at plinth/sill/lintel/roof levels,NDMA_RVS_Primer,Form A:BCBM p.31 / IS 13935 Cl.11.3 p.15,pre_earthquake
+P023,tie_columns_present,vulnerability,structural_details,boolean,,,Tie columns at wall junctions in confined masonry,NDMA_RVS_Primer,Form A:CM RED 3.12 p.35,pre_earthquake
+P024,through_stones_present,vulnerability,structural_details,boolean,,,Through-stones bonding multi-wythe stone walls,NDMA_RVS_Primer,Form A:RRSM p.39 / IS 13935 Table 3 p.8,pre_earthquake
+P025,wall_opening_ratio,vulnerability,geometry,float,,,Ratio of total opening length to wall length,IS_13935_2009,Table 3 p.8,pre_earthquake
+P026,wall_thickness,vulnerability,geometry,float,,mm,Masonry wall thickness,IS_13935_2009,Table 3 p.8 / Forms 1-4 pp.33-36,pre_earthquake
+P027,construction_quality,vulnerability,construction_details,categorical,"good;fair;poor",,Quality of construction materials and workmanship,NDMA_RVS_Primer,Form A:RC YELLOW 7.1 p.28 / IS 13935 Cl.7 p.5,pre_earthquake
+P028,maintenance_condition,vulnerability,construction_details,categorical,"good;fair;poor",,Current maintenance and deterioration state,IS_13935_2009,Cl.7 p.5,pre_earthquake
+P029,importance_factor,vulnerability,use,float,,,Building importance factor per IS 1893 (1.0 or 1.5),IS_13935_2009,Table 2 Cl.8.1 p.7,pre_earthquake
+P030,rvs_tag,vulnerability,assessment_output,categorical,"green;yellow;red",,NDMA Level 1 RVS final occupancy tag,NDMA_RVS_Primer,Ch.3 pp.17-18 / All Forms,pre_earthquake
+P031,ems98_vulnerability_class,vulnerability,classification,categorical,"A;B;C;D;E;F",,EMS-98 vulnerability class assignment,EMS_98,Vulnerability Table p.14,pre_earthquake
+P032,is13935_building_type,building_typology,classification,categorical,"A;A+;B;B+;C;C+;D",,IS 13935 / MSK masonry vulnerability class,IS_13935_2009,Table 8 Cl.A-4 pp.28-29,pre_earthquake
+P033,erd_level,vulnerability,seismic_design,categorical,"none;ERD-L;ERD-M;ERD-H",,Level of earthquake-resistant design,EMS_98,Cl.2.3.7.1 pp.44-46,pre_earthquake
+P034,damage_grade,post_earthquake_damage,damage,integer,"0;1;2;3;4;5",,Observed damage grade (0=none through 5=destruction),EMS_98,pp.15-16 / IS 13935 Table 1 p.5,post_earthquake
+P035,structural_damage_level,post_earthquake_damage,damage,categorical,"none;slight;moderate;heavy;very_heavy",,Structural damage severity,EMS_98,pp.15-16,post_earthquake
+P036,non_structural_damage_level,post_earthquake_damage,damage,categorical,"slight;moderate;heavy;very_heavy;total",,Non-structural damage severity,EMS_98,pp.15-16,post_earthquake
+P037,crack_severity,post_earthquake_damage,damage_indicator,categorical,"none;hairline;moderate;severe;extensive",,Observed crack severity in structural elements,IS_13935_2009,Cl.6.2-6.3 pp.4-5 / EMS-98 pp.15-16,post_earthquake
+P038,crack_width,post_earthquake_damage,damage_indicator,float,,mm,Measured crack width in mm,IS_13935_2009,Cl.6.2 p.4 (0.5-5mm minor/medium) / Cl.6.3 p.5 (>5mm major),post_earthquake
+P039,crack_pattern,post_earthquake_damage,damage_indicator,categorical,"none;vertical;horizontal;diagonal;x_shaped;stair_step;flexural;shear",,Observed seismic crack pattern,EMS_98,pp.15-16 / IS 13935 Cl.4.2.1 p.2,post_earthquake
+P040,collapse_mode,post_earthquake_damage,damage_indicator,categorical,"none;partial;total;soft_story;out_of_plane;in_plane;pancake",,Observed or inferred collapse mechanism,EMS_98,pp.15-16 / NDMA_RVS_Primer Forms B,post_earthquake
+P041,soft_story_failure,post_earthquake_damage,damage_indicator,boolean,,,Ground storey collapse / soft-story pancake observed,EMS_98,p.16 (RC Grade 5) / NDMA_RVS_Primer Forms B,post_earthquake
+P042,wall_failure,post_earthquake_damage,damage_indicator,boolean,,,Serious wall failure / gaps / out-of-plane wall collapse,EMS_98,p.15 (Masonry Grade 4) / IS 13935 Table 9 p.29,post_earthquake
+P043,wall_separation,post_earthquake_damage,damage_indicator,boolean,,,Separation of perpendicular walls at corners/T-junctions,IS_13935_2009,Cl.9.3 p.9 / NDMA_RVS_Primer Form B RED 3.5,post_earthquake
+P044,floor_roof_failure,post_earthquake_damage,damage_indicator,boolean,,,Partial structural failure of roofs or floors,EMS_98,p.15 (Masonry Grade 4) / IS 13935 Table 9 p.29,post_earthquake
+P045,rebar_failure,post_earthquake_damage,damage_indicator,boolean,,,Fractured / buckled / yielded reinforcing bars,IS_13935_2009,Cl.6.4 p.5,post_earthquake
+P046,concrete_spalling,post_earthquake_damage,damage_indicator,boolean,,,Spalling of concrete cover / compression crushing,EMS_98,p.16 (RC Grade 3-4),post_earthquake
+P047,chimney_damage,post_earthquake_damage,damage_indicator,boolean,,,Collapse or fracture of chimneys,EMS_98,p.15 (Masonry Grade 2-3),post_earthquake
+P048,foundation_settlement,post_earthquake_damage,geotechnical,boolean,,,Uneven settlement or tilting of building,NDMA_RVS_Primer,Form B RED 2.4 / IS 13935 Forms pp.33-36,post_earthquake
+P049,ground_failure,post_earthquake_damage,geotechnical,boolean,,,Landslide / fissure / liquefaction at site,NDMA_RVS_Primer,Form B RED 1.1,post_earthquake
+P050,post_eq_rvs_tag,post_earthquake_damage,assessment_output,categorical,"green;yellow;red",,Post-earthquake NDMA Level 1 RVS occupancy tag,NDMA_RVS_Primer,All Forms B pp.29-55,post_earthquake
+P051,retrofitting_action,post_earthquake_damage,remediation,categorical,"not_needed;non_structural_only;full_retrofit;retrofit_or_replace;replace",,Recommended retrofitting action per damage grade,IS_13935_2009,Table 1 p.5,post_earthquake
+P052,pga,post_earthquake_damage,ground_motion,float,,g,Peak ground acceleration at site,EMS_98,Intensity Scale pp.17-20 (implicit),post_earthquake
+P053,magnitude,post_earthquake_damage,ground_motion,float,,,Earthquake moment magnitude,EMS_98,Intensity Scale pp.17-20 (implicit),post_earthquake

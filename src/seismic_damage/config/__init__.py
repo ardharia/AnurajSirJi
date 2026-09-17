@@ -1,6 +1,7 @@
 """Configuration package for seismic damage assessment."""
 
 from seismic_damage.config.settings import (
+    PROJECT_ROOT,
     DamageState,
     FragilityMethod,
     IntensityMeasure,
@@ -11,6 +12,7 @@ from seismic_damage.config.settings import (
 )
 
 __all__ = [
+    "PROJECT_ROOT",
     "DamageState",
     "FragilityMethod",
     "IntensityMeasure",
