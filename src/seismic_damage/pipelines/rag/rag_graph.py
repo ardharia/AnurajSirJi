@@ -42,9 +42,10 @@ class RAGGraph:
 
     def _query_for_building(self, building: BuildingRecord) -> str:
         """Formulate a specific retrieval query for the building."""
+        name = getattr(building, "name", None) or (building.aliases[0] if getattr(building, "aliases", None) else building.building_id)
         return (
             f"What is the damage grade, structural system, material type, "
-            f"and crack severity for building {building.building_id} or {building.name}? "
+            f"and crack severity for building {building.building_id} or {name}? "
             f"Are there soft story failures or wall failures?"
         )
 
@@ -62,21 +63,27 @@ class RAGGraph:
             # 1. Retrieve
             result = self.pipeline.retrieve(
                 query=query, 
-                top_k=self.settings.rag.top_k, 
-                score_threshold=self.settings.rag.similarity_threshold
+                top_k=self.settings.rag.top_k,
             )
             
             # 2. Extract
             # The context is all documents concatenated
-            context_text = "\n\n".join([doc.text for doc in result.documents])
+            context_text = "\n\n".join([getattr(doc, "content", getattr(doc, "text", "")) for doc in result.documents])
             # If no context found, we still parse the empty text to get empty parameters
-            extraction = parse_damage_text(context_text)
+            extraction = parse_damage_text(context_text) if context_text else {}
             
             # 3. Normalize
+            payload = {
+                "building_id": building.building_id,
+                "evidence_source": "rag",
+                "confidence": float(extraction.get("confidence") or 0.0),
+                "evidence_text": result.answer or context_text,
+                "citations": [c.model_dump() if hasattr(c, "model_dump") else c for c in getattr(result, "citations", [])],
+                **extraction,
+            }
             normalized = normalize_rag_output(
-                extraction=extraction,
-                building=building,
-                rag_result=result
+                payload,
+                building_id=building.building_id,
             )
             
             records.append(normalized)
@@ -87,7 +94,7 @@ class RAGGraph:
             "n_buildings": len(catalog),
             "n_records": len(records),
             "modality": "rag",
-            "model": self.settings.llm.model_name
+            "model": getattr(self.settings.llm, "model", getattr(self.settings.llm, "model_name", "unknown"))
         }
         
         return RAGGraphResult(

@@ -33,7 +33,12 @@ def calculate_feature_importance(
     
     # Define features to include
     exclude = {"damage_grade", "structural_damage_level", "non_structural_damage_level", "retrofitting_action"}
-    feature_params = [p for p in ALL_PARAMETERS if p not in exclude]
+    discovered = set(ALL_PARAMETERS)
+    for r in gt_records:
+        if isinstance(r.get("parameters"), Mapping):
+            discovered.update(r["parameters"].keys())
+        discovered.update(k for k in r.keys() if k not in ("building_id", "earthquake_event", "evidence_source", "confidence", "evidence_text", "citations", "metadata", "parameters"))
+    feature_params = sorted([p for p in discovered if p not in exclude])
 
     for bid, record in gt_idx.items():
         row = {"building_id": bid}
@@ -59,11 +64,11 @@ def calculate_feature_importance(
 
     # Handle missing values
     for col in X_raw.columns:
-        if X_raw[col].dtype == object or X_raw[col].dtype == bool:
-            X_raw[col] = X_raw[col].fillna("Missing").astype(str)
-        else:
+        if pd.api.types.is_numeric_dtype(X_raw[col]) and not pd.api.types.is_bool_dtype(X_raw[col]):
             median = X_raw[col].median()
             X_raw[col] = X_raw[col].fillna(median if pd.notna(median) else 0.0)
+        else:
+            X_raw[col] = X_raw[col].fillna("Missing").astype(str)
 
     # One-hot encode categoricals
     X_encoded = pd.get_dummies(X_raw)
