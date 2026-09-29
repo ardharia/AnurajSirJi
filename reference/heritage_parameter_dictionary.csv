@@ -1,0 +1,13 @@
+parameter_name,parameter_group,data_type,allowed_values_or_range,standard_source,description
+heritage_typology,typology,categorical,"ashlar_stone_temple; rubble_lime_fort_wall; timber_laced_masonry; traditional_bhunga; unreinforced_lime_masonry; heritage_monument_complex; other_heritage",ASI_KUTCH_2001,Historic architectural typology
+masonry_bond,material,categorical,"ashlar_fine; coursed_rubble_lime; random_rubble_mud; multi_leaf_stone; unknown",IS_13828_1993,Masonry bonding style and mortar type
+roof_vault_system,typology,categorical,"stone_corbelled_dome; true_masonry_arch_vault; timber_beam_tile; flat_stone_lintels; unknown",ICOMOS_2003,Roofing and vaulting structural system
+multi_leaf_wall_delamination_risk,vulnerability,boolean,"true; false",IS_13935_2009,Risk of wythe separation in multi-leaf rubble stone walls
+unrestrained_arch_thrust,vulnerability,boolean,"true; false",ICOMOS_2003,Absence of tie-rods at arch/vault springings
+heavy_dome_pounding,vulnerability,boolean,"true; false",ASI_KUTCH_2001,Massive stone dome pounding against supporting drum/piers
+timber_rot_or_termite_decay,decay,boolean,"true; false",IS_13828_1993,Fungal or biological decay in wood framing members
+mortar_leaching_or_loss,decay,boolean,"true; false",IS_13935_2009,Loss of lime mortar cohesion in masonry joints
+out_of_plumb_walls,vulnerability,boolean,"true; false",IS_13935_2009,Existing lateral tilt or leaning of load-bearing walls
+incompatible_modern_interventions,vulnerability,boolean,"true; false",ICOMOS_2003,Incompatible heavy rigid RCC alterations added to historic masonry
+heritage_vulnerability_index,assessment,numerical,"[0.0, 1.0]",NDMA_RVS_2014,Heritage-calibrated seismic vulnerability index
+conservation_priority,action,categorical,"Low; Moderate; High; Critical",ICOMOS_2003,Prioritization for heritage stabilization and conservation

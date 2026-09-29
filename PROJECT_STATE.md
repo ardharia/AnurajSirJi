@@ -1,57 +1,60 @@
-# PROJECT_STATE.md — Multimodal Seismic Damage Assessment
+# PROJECT_STATE.md — Multimodal Seismic Damage & Risk Assessment
 
-> Last updated: 2026-09-17
+> Last updated: 2026-09-29
 
 ## Current System Summary
 
-Modular Python scaffold (v0.1.0) for post-earthquake building damage assessment
-combining **RAG** (retrieval-augmented generation) and **VLM** (vision-language model)
-pipelines. Both pipelines are **independent** and strictly not fused.
+Comprehensive Python research framework for post-earthquake damage assessment, pre-earthquake vulnerability estimation, and seismic risk evaluation for the **Bhuj 2001 Earthquake**. Combines **RAG** (retrieval-augmented generation), **VLM** (vision-language model) pipelines, and calibrated multimodal fusion, with modular extensions for pre-earthquake vulnerability, risk, and ancient heritage monuments.
 
-### Working Components
+---
+
+## Implemented Modules & Architecture
 
 | Module | Status | Description |
-|--------|--------|-------------|
-| `config/` + `Settings` | ✅ Working | YAML defaults + `.env` overrides via Pydantic Settings |
-| `schemas/` | ✅ Working | `BuildingParameters`, `DamageAssessment`, `ExtractionResult`, `NormalizedAssessmentRecord`, `TypologyAttributes`, `VulnerabilityAttributes`, `DamageAttributes`, `ProvenanceInfo`, `RAGResult`, `VLMResult`, `TextChunk`, `BuildingRecord`, `EvidenceLink` |
-| `pipelines/rag/` | ✅ Working | FAISS/NumPy vector store, TF-IDF/SentenceTransformer embedders, extractive answer with citations, evidence sufficiency gate, refusal |
-| `pipelines/vlm/` | ✅ Working | MockVLM (tests), OpenAICompatibleVLM (real), UnavailableVLM (fallback); structured JSON observation schema |
-| `pipelines/consolidation.py` | ✅ Working | Consolidates building-level RAG and VLM summaries; exports CSV/JSONL; generates modality plots |
-| `ingestion/` | ✅ Working | PDF extraction (PyMuPDF), text cleaning, page-level chunking (1,732 chunks from 11 Bhuj reports) |
-| `extraction/` | ✅ Working | Rule-based `parse_damage_text()` for captions/report text |
-| `linking/` | ✅ Working | Caption-group building catalog (110 canonical buildings, 119 evidence links); `data/metadata/building_links.csv` |
-| `validation/normalize.py` | ✅ Working | Controlled vocabulary mapping for materials, structural systems, damage grades (0-5), crack patterns, collapse modes |
-| `validation/cross_validation.py` | ✅ Working | Parameter-level metrics (ordinal/binary/numerical/categorical), QWK; GT vs RAG vs VLM comparisons |
-| `stats/` | ✅ Working | Frequency tables, parameter ranking, error distributions, Matplotlib figures |
-| `fragility/` | ✅ Stubbed | Lognormal fragility interface defined; returns `not_implemented` |
-| `orchestration/` | ✅ Stubbed | End-to-end `run_assessment()` composition |
+|---|---|---|
+| `config/` | ✅ Working | Pydantic Settings with `.env` and YAML configurations |
+| `schemas/` | ✅ Working | Canonical schemas across ingestion, normalization, extraction, fragility, vulnerability, risk, and heritage |
+| `pipelines/rag/` | ✅ Working | FAISS vector store, TF-IDF / transformer embedders, citation extraction, evidence sufficiency gating |
+| `pipelines/vlm/` | ✅ Working | Structured VLM observation backends (Mock, OpenAICompatible, Fallback) |
+| `linking/` | ✅ Working | 110 canonical buildings, 119 image-to-building evidence links with deduplication |
+| `validation/` | ✅ Working | Controlled vocabulary mapping, normalization, cross-validation metrics (exact match, QWK, Macro-F1, F1, MAE) |
+| `stats/` | ✅ Working | Parameter frequencies, rankings, distributions, and Random Forest feature importance |
+| `robustness/` (Steps 11, 15) | ✅ Working | Missing & poor visual data robustness analysis across 10 scenarios (A–J: 100%, 75%, 50%, 25%, 0%, pixelation, blur, random removal, primary drop, single image) |
+| `optimization/` (Steps 12, 13) | ✅ Working | Independent RAG and VLM optimization matrices evaluated strictly against Ground Truth |
+| `fusion/` (Step 14) | ✅ Working | Empirical source reliability weighting ($F_1$–$F_4$ baselines), type-aware value fusion, missing-source semantics |
+| `ablation/` (Step 16) | ✅ Working | Formal 10-experiment ablation study (Exp A through Exp J) without data leakage |
+| `vulnerability/` (Step 17) | ✅ Working | Pre-earthquake vulnerability model (NDMA RVS scores $S_0, \Delta S, S$, EMS-98 Vulnerability Classes A–F, vulnerability index $V_I \in [0, 1]$) strictly isolated from post-earthquake damage |
+| `risk/` (Step 18) | ✅ Working | Integrated Seismic Risk Engine: $\text{Risk} = \text{Hazard Demand} \times \text{Site Amplification} \times \text{Vulnerability} \times \text{Exposure}$ |
+| `heritage/` (Step 19) | ✅ Working | Modular ancient monument and vernacular heritage assessment (sandstone temples, forts, traditional Bhungas, historic decay modifiers) |
 
-### Test Suite
+---
 
-- **22 unit tests** — all passing (pytest 9.1.1, Python 3.11.0)
-- Tests cover: damage assessment schema, building parameters, pipeline stubs, settings, ground truth builder, normalization, cross-validation integration, building summaries consolidation, and visualizations.
+## Test Suite Status
 
-### Indian Reference Framework (Steps 1–2)
+- **67 unit tests** — all passing (`pytest tests/`)
+- Test coverage across:
+  - Ground truth generation and linking
+  - Data normalization and metrics
+  - Pipeline graphs and settings
+  - Step 11 & 15: Robustness and missing visual evidence handling
+  - Step 12: Independent RAG optimization
+  - Step 13: Independent VLM optimization
+  - Step 14: Calibrated multimodal fusion
+  - Step 16: Final ablation study
+  - Step 17: Pre-earthquake vulnerability isolation
+  - Step 18: Integrated seismic risk framework
+  - Step 19: Heritage asset assessment
 
-Located in `reference/`:
-- `parameter_dictionary.csv`: 53 parameters across typology, vulnerability, and post-earthquake damage with citations.
-- `damage_grade_mapping.csv`: Complete EMS-98 and IS 13935:2009 damage grade scale (0–5) with masonry vs RC indicators.
-- `ems98_crosswalk.csv`: 15 typologies mapped across EMS-98, IS 13935, and NDMA RVS Primer codes.
+---
 
-### Ground & Reference Dataset (Step 3)
+## Key Output Directories
 
-Located in `data/processed/reference/`:
-- `building_ground_truth.csv` and `building_ground_truth.jsonl`: 110 canonical buildings with explicit separation of pre-earthquake vulnerability, post-earthquake damage, and building typology.
-- `data/metadata/building_links.csv`: 119 evidence links mapping images to canonical buildings.
-
-### Consolidated RAG & VLM Summaries (Steps 5–6)
-
-Located in `data/processed/results/`:
-- `rag_building_summary.csv` and `rag_building_summary.jsonl`: 110 buildings (54 damage grades observed).
-- `vlm_building_summary.csv` and `vlm_building_summary.jsonl`: 110 buildings (48 damage grades observed).
-- `cross_validation_report.json`: Full 3-way evaluation metrics (GT vs RAG vs VLM).
-- Separate visualizations in `data/processed/results/figures/`:
-  - `rag_damage_grade_frequency.png`
-  - `rag_parameter_coverage.png`
-  - `vlm_damage_grade_frequency.png`
-  - `vlm_parameter_coverage.png`
+- `data/processed/reference/`: `building_ground_truth.csv`, `building_ground_truth.jsonl`
+- `data/processed/results/`: Consolidated RAG/VLM summaries and cross-validation reports
+- `data/processed/robustness/`: Robustness results across scenarios A–J, manifests, and plots
+- `data/processed/rag_optimization/`: RAG experiment matrix results and best configuration
+- `data/processed/vlm_optimization/`: VLM experiment matrix results and best configuration
+- `data/processed/fusion/`: `parameter_reliability.csv`, `fusion_predictions.csv`, `fusion_comparison.csv`
+- `data/processed/ablation/`: Ablation experiment configs, results CSV, summary JSON, and comparison plots
+- `data/processed/risk/`: `risk_assessment.csv`, `hazard_summary.csv`, `vulnerability_summary.csv`, `risk_manifest.json`
+- `reference/`: Standard source registries, damage grade mappings, EMS-98 crosswalks, and heritage parameter dictionaries
