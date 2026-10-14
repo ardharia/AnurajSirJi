@@ -53,10 +53,10 @@ class PathsConfig(BaseModel):
 
 class RAGConfig(BaseModel):
     enabled: bool = True
-    embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
+    embedding_model: str = "sentence-transformers/all-mpnet-base-v2"
     vector_store_path: Path = Path("data/processed/vector_store")
     top_k: int = Field(default=5, ge=1)
-    chunk_size: int = Field(default=512, ge=64)
+    chunk_size: int = Field(default=1000, ge=64)
     chunk_overlap: int = Field(default=64, ge=0)
     collection_name: str = "seismic_knowledge"
     min_score: float = Field(default=0.25, ge=0.0, le=1.0)

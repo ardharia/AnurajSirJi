@@ -1,0 +1,371 @@
+typology,parameter_id,parameter_category,parameter_text,source_document,source_page
+RC,RC_RVS_1.1,Siting Issues,"Building is built on hill slope or adjacent to hill slope, that is vulnerable to falling debris.",NDMA_RVS_Primer-43-73.pdf,45
+RC,RC_RVS_1.2,Siting Issues,Building rests adjoining a severely deteriorated or damaged building or structure.,NDMA_RVS_Primer-43-73.pdf,45
+RC,RC_RVS_2.1,Soil & Foundation Conditions,Building is built on liquefiable soil.,NDMA_RVS_Primer-43-73.pdf,45
+RC,RC_RVS_2.2,Soil & Foundation Conditions,Building is built on river terraces that can slide or creep.,NDMA_RVS_Primer-43-73.pdf,45
+RC,RC_RVS_2.3,Soil & Foundation Conditions,Building is built on hill slope that can slide.,NDMA_RVS_Primer-43-73.pdf,45
+RC,RC_RVS_3.1,Architectural Features,Building has exterior plan dimension smaller at the plinth level than at upper storeys.,NDMA_RVS_Primer-43-73.pdf,45
+RC,RC_RVS_3.2,Architectural Features,Building has heavier upper storeys.,NDMA_RVS_Primer-43-73.pdf,45
+RC,RC_RVS_3.3,Architectural Features,Building has large unanchored projections or overhangs.,NDMA_RVS_Primer-43-73.pdf,45
+RC,RC_RVS_3.4,Architectural Features,Building has an Open Storey (at ground /other level) with slender columns.,NDMA_RVS_Primer-43-73.pdf,45
+RC,RC_RVS_3.5,Architectural Features,Building has RC frame with Floating Columns.,NDMA_RVS_Primer-43-73.pdf,45
+RC,RC_RVS_3.6,Architectural Features,Building has irregular plan geometry and or plan aspect ratio > 4.0.,NDMA_RVS_Primer-43-73.pdf,45
+RC,RC_RVS_4.1,Structural Aspects,"Building has Slender Columns and Stiff Beams, with glass infills or no infills.",NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_4.2,Structural Aspects,Building has Flat Slabs without any RC Structural Walls in each plan direction.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_5.1,Siting Issues,Building is resting on cracked ground.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_5.2,Siting Issues,Building is adjoining another building on the side with no gap.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_6.1,Soil & Foundation Conditions,Building is resting on weak or non-uniform soil along the length in plan.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_7.1,Architectural Features,Building has large or heavy cantilever parapet walls.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_7.2,Architectural Features,Building has large or heavy cantilever chimneys.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_7.3,Architectural Features,Building has large or heavy cantilever balconies or sunshades.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_7.4,Architectural Features,Building has large room sizes and large storey heights.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_7.5,Architectural Features,Building has windows larger than 50% of the length of the wall.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_8.1,Structural Aspects,Building has an irregular structural grid.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_8.2,Structural Aspects,Building has RC walls unsymmetrical in both directions.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_8.3,Structural Aspects,Building has staircase at unsymmetrical location in plan.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_8.4,Structural Aspects,Building has unanchored water tanks on roof.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_9.1,Construction and Maintenance Details,Building has longitudinal cracks and/or spalling in Beams and Columns.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_RVS_9.2,Construction and Maintenance Details,Building has poor construction quality material.,NDMA_RVS_Primer-43-73.pdf,46
+RC,RC_POST_1.1,Siting Issues,Building is resting on ground that has failed due to Landslide/Fissures and Liquefaction.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_1.2,Siting Issues,Building is tilted.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_1.3,Siting Issues,"Building is resting on hill slopes or adjacent to hill slopes, and has unsafe/tilted adjoining/uphill building or loose boulders.",NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_2.1,Soil & Foundation Conditions,Building is resting on river terraces that have cracked soil.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_2.2,Soil & Foundation Conditions,Building has sustained uneven settlement of the ground.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_2.3,Soil & Foundation Conditions,Building is resting on liquefied soil.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_2.4,Soil & Foundation Conditions,Uneven Settlement of building leading to visual damage.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_3.1,Structural Aspects,Building has pounding damage from adjoining building or structure.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_3.2,Structural Aspects,Building has collapsed/damaged staircase/mumty or blockade of staircase.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_3.3,Structural Aspects,Building has an Open storey (at ground /other level) with columns having shear cracks.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_3.4,Structural Aspects,Building has Floating Columns with cracked supporting beams.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_3.5,Structural Aspects,Building has main load resisting columns with shear cracks.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_3.6,Structural Aspects,Building has main load resisting short columns with shear cracks.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_3.7,Structural Aspects,Building has Flat Slab with punching shear failure.,NDMA_RVS_Primer-43-73.pdf,47
+RC,RC_POST_3.8,Structural Aspects,Building has spalling of cover concrete in main load resisting columns.,NDMA_RVS_Primer-43-73.pdf,48
+RC,RC_POST_3.9,Structural Aspects,Building has extensive X cracking or out-of-plane collapse of infills.,NDMA_RVS_Primer-43-73.pdf,48
+RC,RC_POST_3.10,Structural Aspects,No seismic separation between staircase and building,NDMA_RVS_Primer-43-73.pdf,48
+RC,RC_POST_4.1,Siting Issues,Building is adjacent to a failed slope.,NDMA_RVS_Primer-43-73.pdf,48
+RC,RC_POST_5.1,Structural Aspects,"Building has sustained collapse of cantilevers, balconies, chimneys and parapets.",NDMA_RVS_Primer-43-73.pdf,48
+RC,RC_POST_5.2,Structural Aspects,Building has water tanks on roof displaced from their supports.,NDMA_RVS_Primer-43-73.pdf,48
+RC,RC_POST_5.3,Structural Aspects,"Building has sustained extensive separation between infill wall and frame members, and has no damage in columns.",NDMA_RVS_Primer-43-73.pdf,48
+BCBM,BCBM_RVS_1.1,Siting Issues,"Building is built on hill slope or adjacent to hill slope, that is vulnerable to falling debris.",NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_1.2,Siting Issues,Building rests adjoining a severely deteriorated or damaged building or structure.,NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_2.1,Soil & Foundation Conditions,Building is built on liquefiable soil.,NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_2.2,Soil & Foundation Conditions,Building is built on river terraces that can slide or creep.,NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_2.3,Soil & Foundation Conditions,Building is built on hill slope that can slide.,NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_3.1,Architectural Features,Building has exterior plan dimension smaller at the plinth level than at upper storeys.,NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_3.2,Architectural Features,Building has heavier upper storeys.,NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_3.3,Architectural Features,Building has large unanchored projections or overhangs.,NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_3.4,Architectural Features,Building has irregular plan geometry and/or plan aspect (length-to- width ratio) >4.0.,NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_3.5,Architectural Features,Building has storey height more than about 25 times wall thickness.,NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_3.6,Architectural Features,Building has unsupported height more than 2.5m.,NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_3.7,Architectural Features,Building has stiff upper storeys.,NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_4.1,Architectural Features,"Building has no continuous lintel band, roof band and gable band.",NDMA_RVS_Primer-43-73.pdf,49
+BCBM,BCBM_RVS_4.2,Structural Aspects,Building has door/window openings in walls close to corners.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_4.3,Structural Aspects,Building has masonry walls not integrated into each other at corners.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_4.4,Structural Aspects,Building has walls made without lime / cement mortar or mud mortar exposed to vagaries.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_4.5,Structural Aspects,Building has roof not anchored into the walls.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_4.6,Structural Aspects,Building has thick walls made of two wythes and no through stones.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_4.7,Structural Aspects,Building has out-of-plumb walls.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_4.8,Structural Aspects,Building has separation between walls and between walls and floor/roof.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_4.9,Structural Aspects,Building has cracks in walls.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_5.1,Construction and Maintenance Details,Buildings have walls made with mud mortar and deteriorated significantly owing to vagaries of the outside weather (especially rainwater beating).,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_6.1,Siting Issues,Building is resting on cracked ground.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_6.2,Siting Issues,Building is adjoining another building on the side with no gap.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_6.3,Siting Issues,"Building is resting on sloped ground with access to house at two/three levels, i.e., ground, middle floor and roof.",NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_6.4,Siting Issues,Building is connected to the sloped ground and there is no gap between the building and the natural slope of the ground.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_7.1,Soil & Foundation Conditions,Building is resting on weak or non-uniform soil along the length in plan.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_8.1,Architectural Features,Building has large or heavy cantilever parapet walls.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_8.2,Features,Building has large or heavy cantilever chimneys.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_8.3,Features,Building has large or heavy cantilever balconies or sunshades.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_8.4,Features,Building has large room sizes and large storey heights.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_8.5,Features,Building has windows larger than 50% of the length of the wall.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_8.6,Features,Building has unanchored water tanks on roof.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_9.1,Features,Building has an irregular grid of masonry walls in plan.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_9.2,Structural Aspects,Building has staircase at unsymmetrical location in plan.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_9.3,Structural Aspects,Building has loosely placed country tiles on the roof.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_10.1,Construction and Maintenance Details,Building has vertical cracks in masonry walls.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_RVS_10.2,Construction and Maintenance Details,Building has poor construction quality material.,NDMA_RVS_Primer-43-73.pdf,50
+BCBM,BCBM_POST_1.1,Siting Issues,Building is resting on ground that has failed due to Landslide/Fissures and Liquefaction.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_1.2,Siting Issues,Building is tilted.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_1.3,Siting Issues,Building is resting on hill slopes or adjacent to hill slopes.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_2.1,Soil & Foundation Conditions,Building is resting on river terraces that have cracked or soil.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_2.2,Soil & Foundation Conditions,Building has sustained uneven settlement of the ground.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_2.3,Soil & Foundation Conditions,Building is resting on liquefied soil.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_2.4,Soil & Foundation Conditions,Uneven Settlement of building leading to visual damage.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_3.1,Structural Aspects,Building has pounding damage from adjoining building or structure.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_3.2,Structural Aspects,Building has collapsed/damaged staircase/mumty or blockade of staircase.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_3.3,Structural Aspects,Building has plinth masonry severely damaged.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_3.4,Structural Aspects,Building has horizontally slid at any storey.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_3.5,Structural Aspects,Building has suffered separation of wall junctions at corners.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_3.6,Structural Aspects,Building has floor-wall junction separated with walls out-of-plumb.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_3.7,Structural Aspects,Building has suffered gable collapse.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_3.8,Structural Aspects,Building has walls separated into wythes.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_3.9,Structural Aspects,Building has diagonal shear cracking in wall piers and/or spandrels.,NDMA_RVS_Primer-43-73.pdf,51
+BCBM,BCBM_POST_3.10,Structural Aspects,Building has crushed masonry at wall base.,NDMA_RVS_Primer-43-73.pdf,52
+BCBM,BCBM_POST_3.11,Structural Aspects,No seismic separation between staircase and building.,NDMA_RVS_Primer-43-73.pdf,52
+BCBM,BCBM_POST_4.1,Siting Issues,Building is adjacent to a failed slope.,NDMA_RVS_Primer-43-73.pdf,52
+BCBM,BCBM_POST_5.1,Structural Aspects,"Building has sustained collapse of cantilevers, balconies, chimneys and parapets.",NDMA_RVS_Primer-43-73.pdf,52
+BCBM,BCBM_POST_5.2,Structural Aspects,Building has water tanks on roof displaced from their supports.,NDMA_RVS_Primer-43-73.pdf,52
+CM,CM_RVS_1.3,Siting Issues,"Building is built on hill slope or adjacent to hill slope, that is Red vulnerable to falling debris.",NDMA_RVS_Primer-43-73.pdf,53
+CM,CM_RVS_1.4,Siting Issues,Building rests adjoining a severely deteriorated or damaged Red building or structure.,NDMA_RVS_Primer-43-73.pdf,53
+CM,CM_RVS_2.4,Soil & Foundation Conditions,Building is built on liquefiable soil.,NDMA_RVS_Primer-43-73.pdf,53
+CM,CM_RVS_2.5,Soil & Foundation Conditions,Building is built on river terraces that can slide or creep.,NDMA_RVS_Primer-43-73.pdf,53
+CM,CM_RVS_2.6,Soil & Foundation Conditions,Building is built on hill slope that can slide.,NDMA_RVS_Primer-43-73.pdf,53
+CM,CM_RVS_3.7,Architectural Features,Building has exterior plan dimension smaller at the plinth level than Red at upper storeys.,NDMA_RVS_Primer-43-73.pdf,53
+CM,CM_RVS_3.8,Architectural Features,Building has heavier upper storeys.,NDMA_RVS_Primer-43-73.pdf,53
+CM,CM_RVS_3.9,Architectural Features,Building has large unanchored projections or overhangs.,NDMA_RVS_Primer-43-73.pdf,53
+CM,CM_RVS_3.10,Architectural Features,Building has no continuous tie beams or tie columns.,NDMA_RVS_Primer-43-73.pdf,53
+CM,CM_RVS_3.11,Architectural Features,"Building has no Tie Beams at plinth, lintel or roof levels.",NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_3.12,Architectural Features,Building has no Tie Columns at wall junctions.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_3.13,Architectural Features,Building has plan aspect (length-to-width ratio) more than 4.0.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_3.14,Architectural Features,Building has irregular plan.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_3.15,Architectural Features,Building has storey height more than about ~25 times wall Red thickness.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_4.1,Structural Aspects,Building has door/window openings in walls close to corners.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_4.2,Structural Aspects,Building has no toothing between masonry walls and Tie Columns.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_4.3,Structural Aspects,Building has Tie Columns spaced at more than 1.5 times Red Storeyheight.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_4.4,Structural Aspects,Building has out-of-plumb walls.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_5.1,Siting Issues,Building is resting on cracked ground.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_5.2,Siting Issues,Building is adjoining another building on the side with no gap.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_6.1,Soil & Foundation Conditions,Building is resting on weak or non-uniform soil along the length in Yellow plan.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_7.1,Architectural Features,Building has large or heavy cantilever parapet walls.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_7.2,Architectural Features,Building has large or heavy cantilever chimneys.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_7.3,Architectural Features,Building has large or heavy cantilever balconies or sunshades.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_7.4,Architectural Features,Building has large room sizes and large storey heights.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_7.5,Architectural Features,Building has windows larger than 50% of the length of the wall.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_7.6,Architectural Features,Building has Tie Columns spaced at more than Storey Height.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_7.7,Architectural Features,Building has no spandrel masonry between Tie Columns and Tie Yellow Beams above lintel.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_7.8,Architectural Features,"Floors with (a) Timber planks with Timber or Steel Joists, (b) Yellow Timber Planks and Stone Slabs, and/or (c) Brick, brick coba or mud overlay.",NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_8.1,Structural Aspects,Building has an irregular grid of masonry walls in plan.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_8.2,Structural Aspects,Building has staircase at unsymmetrical location in plan.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_8.3,Structural Aspects,Building has loosely placed country tiles on the roof.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_8.4,Structural Aspects,Building has unanchored water tanks on roof.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_8.5,Structural Aspects,Building has no anchorage of steel bar in Tie Columns into Yellow foundation.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_8.6,Structural Aspects,Building has discontinuous Tie Beams at sill and lintel levels.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_9.1,Construction and Maintenance Details,"Building has vertical cracks in masonry walls, and/or longitudinal Yellow cracks and spalling in Tie Beams and Tie Columns.",NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_RVS_9.2,Construction and Maintenance Details,Building has poor construction quality material.,NDMA_RVS_Primer-43-73.pdf,54
+CM,CM_POST_1.1,Siting Issues,Building is resting on ground that has failed due to Red Landslide/Fissures and Liquefaction.,NDMA_RVS_Primer-43-73.pdf,55
+CM,CM_POST_1.2,Siting Issues,Building is tilted.,NDMA_RVS_Primer-43-73.pdf,55
+CM,CM_POST_1.3,Siting Issues,"Building is resting on hill slopes or adjacent to hill slopes, and has Red unsafe/tilted adjoining/uphill building or loose boulders.",NDMA_RVS_Primer-43-73.pdf,55
+CM,CM_POST_2.1,Soil & Foundation Conditions,Building is resting on river terraces that have cracked or soil.,NDMA_RVS_Primer-43-73.pdf,55
+CM,CM_POST_2.2,Soil & Foundation Conditions,Building has sustained uneven settlement of the ground.,NDMA_RVS_Primer-43-73.pdf,55
+CM,CM_POST_2.3,Soil & Foundation Conditions,Building is resting on liquefied soil.,NDMA_RVS_Primer-43-73.pdf,55
+CM,CM_POST_2.4,Soil & Foundation Conditions,Uneven Settlement of building leading to visual damage.,NDMA_RVS_Primer-43-73.pdf,55
+CM,CM_POST_3.1,Structural Aspects,Building has pounding damage from adjoining building or Red structure.,NDMA_RVS_Primer-43-73.pdf,55
+CM,CM_POST_3.2,Aspects,Building has collapsed/damaged staircase/mumty or blockade of Red staircase.,NDMA_RVS_Primer-43-73.pdf,55
+CM,CM_POST_3.3,Aspects,Building has plinth masonry severely damaged.,NDMA_RVS_Primer-43-73.pdf,56
+CM,CM_POST_3.4,Aspects,Building has horizontally slid at any storey.,NDMA_RVS_Primer-43-73.pdf,56
+CM,CM_POST_3.5,Aspects,Building has suffered separation of Tie columns and masonry Red wallsat corners.,NDMA_RVS_Primer-43-73.pdf,56
+CM,CM_POST_3.6,Aspects,Building has floor-wall junction separated with walls out-of-plumb.,NDMA_RVS_Primer-43-73.pdf,56
+CM,CM_POST_3.7,Aspects,Building has suffered gable collapse.,NDMA_RVS_Primer-43-73.pdf,56
+CM,CM_POST_3.8,Aspects,Building has through cracks across Tie Columns and Tie Beams.,NDMA_RVS_Primer-43-73.pdf,56
+CM,CM_POST_3.9,Aspects,Building has diagonal shear cracking in wall panels.,NDMA_RVS_Primer-43-73.pdf,56
+CM,CM_POST_3.10,Aspects,Building has crushed masonry at wall base.,NDMA_RVS_Primer-43-73.pdf,56
+CM,CM_POST_3.11,Aspects,No seismic separation between staircase and building.,NDMA_RVS_Primer-43-73.pdf,56
+CM,CM_POST_4.1,Siting Issues,Building is adjacent to a failed slope.,NDMA_RVS_Primer-43-73.pdf,56
+CM,CM_POST_5.1,Structural Aspects,"Building has sustained collapse of cantilevers, balconies, chimneys Yellow and parapets.",NDMA_RVS_Primer-43-73.pdf,56
+CM,CM_POST_5.2,Structural Aspects,Uneven settlement of adjacent building.,NDMA_RVS_Primer-43-73.pdf,56
+RRSM,RRSM_RVS_1.5,Siting Issues,"Building is built on hill slope or adjacent to hill slope, that is vulnerable to falling debris.",NDMA_RVS_Primer-43-73.pdf,57
+RRSM,RRSM_RVS_1.6,Siting Issues,Building rests adjoining a severely deteriorated or damaged building or structure.,NDMA_RVS_Primer-43-73.pdf,57
+RRSM,RRSM_RVS_2.7,Soil & Foundation Conditions,Building is built on liquefiable soil.,NDMA_RVS_Primer-43-73.pdf,57
+RRSM,RRSM_RVS_2.8,Soil & Foundation Conditions,Building is built on river terraces that can slide or creep.,NDMA_RVS_Primer-43-73.pdf,57
+RRSM,RRSM_RVS_2.9,Soil & Foundation Conditions,Building is built on hill slope that can slide.,NDMA_RVS_Primer-43-73.pdf,57
+RRSM,RRSM_RVS_3.16,Architectural Features,Building has exterior plan dimension smaller at the plinth level than at upper storeys.,NDMA_RVS_Primer-43-73.pdf,57
+RRSM,RRSM_RVS_3.17,Architectural Features,Building has heavier upper storeys.,NDMA_RVS_Primer-43-73.pdf,57
+RRSM,RRSM_RVS_3.18,Architectural Features,"Building has large unanchored projections or overhangs, e.g., parapets.",NDMA_RVS_Primer-43-73.pdf,57
+RRSM,RRSM_RVS_3.19,Architectural Features,Building has irregular plan geometry and/or plan aspect (length-to- width ratio) >4.0.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_3.20,Architectural Features,Building has storey height more than about 25 times wall thickness.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_3.21,Architectural Features,Building has unsupported height more than 2.5m.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_3.22,Architectural Features,Building has stiff upper storeys.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_4.3,Structural Aspects,"Building has no continuous lintel band, roof band and gable band.",NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_4.4,Structural Aspects,Building has door/window openings in walls close to corners.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_4.5,Structural Aspects,Building has masonry walls not integrated into each other at corners.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_4.6,Structural Aspects,Building has walls made with no or mud mortar exposed to vagaries.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_4.7,Structural Aspects,Building has roof not anchored into the walls.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_4.8,Structural Aspects,Building has thick walls made of two wythes and no through stones.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_4.9,Structural Aspects,Building has out-of-plumb walls.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_4.10,Structural Aspects,"Building has openings close to wall junctions or corners, or to floors/roof.",NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_4.11,Structural Aspects,Building has separation between walls and between walls and floor/roof.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_4.12,Structural Aspects,Building has cracks in walls.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_5.1,Construction and Maintenance Details,Building has walls made with mud mortar and deteriorated and cracked significantly owing to vagaries of outside weather (especially rainwater beating).,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_6.1,Siting Issues,Building is resting on cracked ground.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_6.2,Siting Issues,Building is adjoining another building on the side with no gap.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_6.3,Siting Issues,"Building is resting on sloped ground with access to house at two/three levels, i.e., ground, middle floor and roof.",NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_6.4,Siting Issues,Building is connected to the sloped ground and there is no gap between the building and the natural slope of the ground.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_7.1,Soil & Foundation Conditions,Building is resting on weak or non-uniform soil along the length in plan.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_8.1,Architectural Features,Building has large or heavy cantilever parapet walls.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_8.2,Features,Building has large or heavy cantilever chimneys.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_8.3,Features,Building has large or heavy cantilever balconies or sunshades.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_8.4,Features,Building has large room sizes and large storey heights.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_8.5,Features,Building has windows larger than 50% of the length of the wall.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_8.6,Features,Building has unanchored water tanks on roof.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_9.1,Structural Aspects,Building has an irregular grid of masonry walls in plan.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_9.2,Aspects,Building has staircase at unsymmetrical location in plan.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_9.3,Aspects,Building has loosely placed country tiles on the roof.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_10.1,Construction and Maintenance Details,Building has vertical cracks in masonry walls.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_RVS_10.2,Construction and Maintenance Details,Building has poor construction quality material.,NDMA_RVS_Primer-43-73.pdf,58
+RRSM,RRSM_POST_1.4,Siting Issues,Building is resting on ground that has failed due to Landslide/Fissures and Liquefaction.,NDMA_RVS_Primer-43-73.pdf,60
+RRSM,RRSM_POST_1.5,Siting Issues,Building is tilted.,NDMA_RVS_Primer-43-73.pdf,60
+RRSM,RRSM_POST_1.6,Siting Issues,"Building is resting on hill slopes or adjacent to hill slopes, and has unsafe/tilted adjoining/uphill building or loose boulders.",NDMA_RVS_Primer-43-73.pdf,60
+RRSM,RRSM_POST_2.5,Soil & Foundation Conditions,Building is resting on river terraces that have cracked or soil.,NDMA_RVS_Primer-43-73.pdf,60
+RRSM,RRSM_POST_2.6,Soil & Foundation Conditions,Building has sustained uneven settlement of the ground.,NDMA_RVS_Primer-43-73.pdf,60
+RRSM,RRSM_POST_2.7,Soil & Foundation Conditions,Building is resting on liquefied soil.,NDMA_RVS_Primer-43-73.pdf,60
+RRSM,RRSM_POST_5.3,Structural Aspects,Building has pounding damage from adjoining building or structure.,NDMA_RVS_Primer-43-73.pdf,60
+RRSM,RRSM_POST_5.4,Structural Aspects,Building has collapsed/damaged staircase/mumty or blockade of staircase.,NDMA_RVS_Primer-43-73.pdf,60
+RRSM,RRSM_POST_5.5,Structural Aspects,Building has plinth masonry severely damaged.,NDMA_RVS_Primer-43-73.pdf,60
+RRSM,RRSM_POST_5.6,Structural Aspects,Building has horizontally slid at any storey.,NDMA_RVS_Primer-43-73.pdf,61
+RRSM,RRSM_POST_5.7,Structural Aspects,Building has suffered separation of wall junctions at corners.,NDMA_RVS_Primer-43-73.pdf,61
+RRSM,RRSM_POST_5.8,Structural Aspects,Building has floor-wall junction separated with walls out-of-plumb.,NDMA_RVS_Primer-43-73.pdf,61
+RRSM,RRSM_POST_5.9,Structural Aspects,Building has suffered gable collapse.,NDMA_RVS_Primer-43-73.pdf,61
+RRSM,RRSM_POST_5.10,Structural Aspects,Building has walls separated into wythes.,NDMA_RVS_Primer-43-73.pdf,61
+RRSM,RRSM_POST_5.11,Structural Aspects,Building has diagonal shear cracking in wall piers and/or spandrels.,NDMA_RVS_Primer-43-73.pdf,61
+RRSM,RRSM_POST_5.12,Structural Aspects,Building has crushed masonry at wall base.,NDMA_RVS_Primer-43-73.pdf,61
+RRSM,RRSM_POST_4.1,Siting Issues,Building is adjacent to a failed slope.,NDMA_RVS_Primer-43-73.pdf,61
+RRSM,RRSM_POST_5.1,Structural Aspects,"Building has sustained collapse of cantilevers, balconies, chimneys and parapets.",NDMA_RVS_Primer-43-73.pdf,61
+RRSM,RRSM_POST_5.2,Structural Aspects,Uneven settlement of adjacent building.,NDMA_RVS_Primer-43-73.pdf,61
+MH,MH_RVS_1.1,Siting Issues,"Building is built on hill slope or adjacent to hill slope, that is vulnerable to falling debris.",NDMA_RVS_Primer-43-73.pdf,62
+MH,MH_RVS_1.2,Siting Issues,Building rests adjoining a severely deteriorated or damaged building or structure.,NDMA_RVS_Primer-43-73.pdf,62
+MH,MH_RVS_2.1,Soil & Foundation Conditions,Building is built on liquefiable soil.,NDMA_RVS_Primer-43-73.pdf,62
+MH,MH_RVS_2.2,Soil & Foundation Conditions,Building is built on river terraces that can slide or creep.,NDMA_RVS_Primer-43-73.pdf,62
+MH,MH_RVS_2.3,Soil & Foundation Conditions,Building is built on hill slope that can slide.,NDMA_RVS_Primer-43-73.pdf,62
+MH,MH_RVS_2.4,Soil & Foundation Conditions,Building is built on ground with high water table.,NDMA_RVS_Primer-43-73.pdf,62
+MH,MH_RVS_3.1,Architectural Features,Building has exterior plan dimension smaller at the plinth level than at upper storeys.,NDMA_RVS_Primer-43-73.pdf,62
+MH,MH_RVS_3.2,Architectural Features,Building has heavier upper storey.,NDMA_RVS_Primer-43-73.pdf,62
+MH,MH_RVS_3.3,Architectural Features,Building has large unanchored projections or overhangs.,NDMA_RVS_Primer-43-73.pdf,62
+MH,MH_RVS_3.4,Architectural Features,Building has irregular plan geometry and/or plan aspect (length-to- width ratio) more than 4.0.,NDMA_RVS_Primer-43-73.pdf,62
+MH,MH_RVS_3.5,Architectural Features,Building has storey height more than about 25 times wall thickness.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_3.6,Architectural Features,Building has unsupported height more than 2.5m.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_4.1,Construction and Maintenance Details,"Building has no or no continuous lintel band, roof band and gable band.",NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_4.2,Construction and Maintenance Details,Building has door/window openings in walls close to corners.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_4.3,Construction and Maintenance Details,Building has masonry walls not integrated into close to corner.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_4.4,Construction and Maintenance Details,Building has roof not anchored into the walls.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_4.5,Construction and Maintenance Details,Building has thick walls made of two wythes and no through mesh of timber.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_4.6,Construction and Maintenance Details,Building has out-of-plumb walls.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_4.7,Construction and Maintenance Details,Building has cracks in walls.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_4.8,Construction and Maintenance Details,Building has no vertical wood posts along the length of the wall.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_4.9,Construction and Maintenance Details,Building has no wood posts under each rafters of floor/roof.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_5.1,Construction and Maintenance Details,Building has mud walls deteriorated and cracked significantly owing to vagaries of the outside weather (especially rainwater beating).,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_6.1,Siting Issues,Building is resting on cracked ground.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_6.2,Siting Issues,Building is adjoining another building on the side with no gap.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_7.1,Soil & Foundation Conditions,Building is resting on weak or non-uniform soil along the length in plan.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_8.1,Architectural Features,Building has large room sizes and large storey heights.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_8.2,Architectural Features,Building has poor distribution of walls in plan of the building.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_8.3,Architectural Features,Building has wall aspect ratio more than 2.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_8.4,Architectural Features,Building has windows larger than 50% of the width of the wall.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_8.5,Architectural Features,"Building has floors with brick, brick coba or mud overlay on (a) Timber joists and planks, and/or (b) Timber planks and stone slabs.",NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_9.1,Structural Aspects,Building has an irregular grid of masonry walls in plan.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_9.2,Structural Aspects,Building has staircase at unsymmetrical location in plan.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_9.3,Structural Aspects,Building has irregular plan in geometry.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_10.1,Construction and Maintenance Details,Building has vertical cracks in mud walls.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_RVS_10.2,Construction and Maintenance Details,Poor quality of materials.,NDMA_RVS_Primer-43-73.pdf,63
+MH,MH_POST_1.1,Siting Issues,Building is resting on ground that has failed due to Landslide/Fissures and Liquefaction.,NDMA_RVS_Primer-43-73.pdf,64
+MH,MH_POST_1.2,Siting Issues,Building is tilted.,NDMA_RVS_Primer-43-73.pdf,64
+MH,MH_POST_1.3,Siting Issues,"Building is resting on hill slopes or adjacent to hill slopes, and has unsafe/tilted adjoining/uphill building or loose boulders.",NDMA_RVS_Primer-43-73.pdf,64
+MH,MH_POST_2.1,Soil & Foundation Conditions,Building is resting on river terraces that have cracked or soil.,NDMA_RVS_Primer-43-73.pdf,64
+MH,MH_POST_2.2,Soil & Foundation Conditions,Building has sustained uneven settlement of the ground.,NDMA_RVS_Primer-43-73.pdf,64
+MH,MH_POST_2.3,Soil & Foundation Conditions,Building is resting on liquefied soil.,NDMA_RVS_Primer-43-73.pdf,64
+MH,MH_POST_3.1,Structural Aspects,Building has suffered gable collapse.,NDMA_RVS_Primer-43-73.pdf,64
+MH,MH_POST_3.2,Structural Aspects,Separation of wythes observed.,NDMA_RVS_Primer-43-73.pdf,64
+MH,MH_POST_3.3,Structural Aspects,Building has suffered damage to masonry plinth.,NDMA_RVS_Primer-43-73.pdf,64
+MH,MH_POST_4.1,Siting Issues,Building is adjacent to a failed slope.,NDMA_RVS_Primer-43-73.pdf,64
+MH,MH_POST_5.1,Structural Aspects,"Building has sustained collapse of cantilevers, balconies, chimneys and parapet.",NDMA_RVS_Primer-43-73.pdf,64
+MH,MH_POST_5.2,Structural Aspects,Uneven settlement of adjacent building.,NDMA_RVS_Primer-43-73.pdf,65
+DD,DD_RVS_1.1,Siting Issues,"Building is built on hill slope or adjacent to hill slope, that is vulnerable to falling debris.",NDMA_RVS_Primer-43-73.pdf,66
+DD,DD_RVS_1.2,Siting Issues,Building rests adjoining a severely deteriorated or damaged building or structure.,NDMA_RVS_Primer-43-73.pdf,66
+DD,DD_RVS_2.1,Soil & Foundation Conditions,Building is built on liquefiable soil.,NDMA_RVS_Primer-43-73.pdf,66
+DD,DD_RVS_2.2,Soil & Foundation Conditions,Building is built on river terraces that can slide or creep.,NDMA_RVS_Primer-43-73.pdf,66
+DD,DD_RVS_2.3,Soil & Foundation Conditions,Building is built on hill slope that can slide.,NDMA_RVS_Primer-43-73.pdf,66
+DD,DD_RVS_3.1,Architectural Features,Building has exterior plan dimension smaller at the plinth level than at upper storeys.,NDMA_RVS_Primer-43-73.pdf,66
+DD,DD_RVS_3.2,Architectural Features,Building has heavier upper storeys.,NDMA_RVS_Primer-43-73.pdf,66
+DD,DD_RVS_3.3,Architectural Features,Building has large unanchored projections or overhangs.,NDMA_RVS_Primer-43-73.pdf,66
+DD,DD_RVS_3.4,Architectural Features,Building has an Open Storey (at ground /other level).,NDMA_RVS_Primer-43-73.pdf,66
+DD,DD_RVS_3.5,Architectural Features,Building has timber frame with Floating Columns.,NDMA_RVS_Primer-43-73.pdf,66
+DD,DD_RVS_3.6,Architectural Features,Building has discontinuous vertical and horizontal runners in walls.,NDMA_RVS_Primer-43-73.pdf,66
+DD,DD_RVS_3.7,Architectural Features,Building has irregularly spaced grid of vertical and horizontal runners in walls.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_3.8,Architectural Features,Building has irregular plan.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_3.9,Architectural Features,Building has plan aspect (length-to-width) ratio exceeds 4.0.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_4.1,Structural Aspects,Building has a roof that is not integral.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_4.2,Structural Aspects,Building does not rest on stiff ground.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_4.3,Structural Aspects,Building has too many panel with no infills between vertical and horizontal runners.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_4.4,Structural Aspects,Building has vertical timber members spaced more than 1.5 times the height.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_4.5,Structural Aspects,Building has vertical timber members not anchored to plinth masonry.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_4.6,Structural Aspects,Building has inadequate mortise and tendon joints.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_5.1,Siting Issues,Building is resting on cracked ground.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_5.2,Siting Issues,Building is adjoining another building on the side with no gap.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_6.1,Soil & Foundation Conditions,Building is resting on weak or non-uniform soil along the length in plan.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_7.1,Architectural Features,Building has large or heavy cantilever balconies or sunshades.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_7.2,Architectural Features,Building has large room sizes and large storey heights.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_7.3,Architectural Features,Building has windows larger than 50% of the length of the wall.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_7.4,Architectural Features,Building has more than three storeys.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_8.1,Structural Aspects,Building has an irregular structural grid.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_8.2,Structural Aspects,Building has braces in vertical plane placed in unsymmetrical locations in plan.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_8.3,Structural Aspects,Building has staircase at unsymmetrical location in plan.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_8.4,Structural Aspects,Building has unanchored water tanks on roof.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_8.5,Structural Aspects,Building has discontinuous vertical and horizontal runners.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_8.6,Structural Aspects,Building has Jharokhas not anchored to external wood frame of the building.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_8.7,Structural Aspects,Building has diagonal braces only in upper storeys.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_9.1,Construction and Maintenance Details,Building has loose connections at junctions of vertical and horizontal wood runners.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_RVS_9.2,Construction and Maintenance Details,Building has poor construction quality material.,NDMA_RVS_Primer-43-73.pdf,67
+DD,DD_POST_1.1,Siting Issues,Building is resting on ground that has failed due to Landslide/Fissures and Liquefaction.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_1.2,Siting Issues,Building is tilted.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_1.3,Siting Issues,Building is resting on hill slopes or adjacent to hill slopes.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_2.1,Soil & Foundation Conditions,Building is resting on river terraces that have cracked or soil.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_2.2,Soil & Foundation Conditions,Building has sustained uneven settlement of the ground.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_2.3,Soil & Foundation Conditions,Building is resting on liquefied soil.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_3.1,Structural Aspects,Building has separation at junction wood floor to vertical wood frame.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_3.2,Structural Aspects,Building has vertical walls out of plumb.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_3.3,Structural Aspects,Building has suffered gable collapse.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_3.4,Structural Aspects,Building has sustained jharoka collapse.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_3.5,Structural Aspects,Building has suffered extensive damage to masonry plinth.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_3.6,Structural Aspects,Building has suffered horizontal sliding at any storey.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_4.1,Siting Issues,Building is adjacent to a failed slope.,NDMA_RVS_Primer-43-73.pdf,68
+DD,DD_POST_5.1,Structural Aspects,"Building has sustained collapse of cantilevers, balconies, chimneys and parapets.",NDMA_RVS_Primer-43-73.pdf,69
+DD,DD_POST_5.2,Structural Aspects,Building has water tanks on roof displaced from their supports.,NDMA_RVS_Primer-43-73.pdf,69
+DD,DD_POST_5.3,Structural Aspects,"Building has sustained extensive separation between wood frame members and infill wall, and has no damage in columns.",NDMA_RVS_Primer-43-73.pdf,69
+EH,EH_RVS_1.1,Siting Issues,"Building is built on hill slope or adjacent to hill slope, that is Red vulnerable to falling debris.",NDMA_RVS_Primer-43-73.pdf,70
+EH,EH_RVS_1.2,Siting Issues,Building rests adjoining a severely deteriorated or damaged Red building or structure.,NDMA_RVS_Primer-43-73.pdf,70
+EH,EH_RVS_2.1,Soil & Foundation Conditions,Building is built on liquefiable soil.,NDMA_RVS_Primer-43-73.pdf,70
+EH,EH_RVS_2.2,Soil & Foundation Conditions,Building is built on river terraces that can slide or creep.,NDMA_RVS_Primer-43-73.pdf,70
+EH,EH_RVS_2.3,Soil & Foundation Conditions,Building is built on hill slope that can slide.,NDMA_RVS_Primer-43-73.pdf,70
+EH,EH_RVS_3.1,Architectural Features,Building built on stilts.,NDMA_RVS_Primer-43-73.pdf,70
+EH,EH_RVS_3.2,Architectural Features,Building has large unanchored projections or overhangs.,NDMA_RVS_Primer-43-73.pdf,70
+EH,EH_RVS_3.3,Architectural Features,Building has no continuous sill or plinth bands.,NDMA_RVS_Primer-43-73.pdf,70
+EH,EH_RVS_3.4,Architectural Features,Building is built adjoining a severely deteriorated or damaged Red building or structure.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_4.1,Structural Aspects,Building has door/window openings close to wall corners.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_4.2,Structural Aspects,Building has vertical wood members spaced at more than 1.5 times Red building height.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_4.3,Structural Aspects,Building has vertical wood members not anchored to foundation.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_4.4,Structural Aspects,Building has roof that is not anchored into the walls.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_4.5,Structural Aspects,Building has walls that are not integrated into each other at the Red corners.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_4.6,Structural Aspects,Building has vertical posts of unequal lengths.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_4.7,Structural Aspects,Building has roof rafters and purlins tied to vertical posts with Red deteriorated choir ropes.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_5.1,Siting Issues,Building is resting on cracked ground.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_5.2,Siting Issues,Building is adjoining another building on the side with no gap.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_6.1,Soil & Foundation Conditions,Building is resting on weak or non-uniform soil along the length in Yellow plan.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_7.1,Architectural Features,Building has large or heavy cantilever balconies or sunshades.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_7.2,Architectural Features,Building has large room sizes and large storey heights.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_7.3,Architectural Features,Building has windows larger than 50% of the length of the wall.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_7.4,Architectural Features,Building has more than two storeys.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_7.5,Architectural Features,Building has non-uniform location of vertical posts in plan.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_7.6,Architectural Features,Houses have small gaps between them.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_8.1,Structural Aspects,Building has an irregular structural grid.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_8.2,Structural Aspects,Building has braces in vertical plane placed in unsymmetrical Yellow locations in plan.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_8.3,Structural Aspects,Building has staircase at unsymmetrical location in plan.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_8.4,Structural Aspects,Building has diagonal braces only in upper storeys.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_8.5,Structural Aspects,"Building has connections using natural materials, like coir ropes and Yellow reeds, of poor quality.",NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_8.6,Structural Aspects,Building has discontinuous vertical and horizontal runners.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_9.1,Construction and Maintenance Details,Building has loose connections at junctions of vertical and Yellow horizontal wood runners.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_RVS_9.2,Construction and Maintenance Details,Building has poor construction quality material.,NDMA_RVS_Primer-43-73.pdf,71
+EH,EH_POST_1.4,Siting Issues,Building is resting on ground that has failed due to Red Landslide/Fissures and Liquefaction.,NDMA_RVS_Primer-43-73.pdf,72
+EH,EH_POST_1.5,Siting Issues,Building is tilted.,NDMA_RVS_Primer-43-73.pdf,72
+EH,EH_POST_1.6,Siting Issues,"Building is resting on hill slopes or adjacent to hill slopes, and has Red unsafe/tilted adjoining/uphill building or loose boulders.",NDMA_RVS_Primer-43-73.pdf,72
+EH,EH_POST_2.1,Soil & Foundation Conditions,Building is resting on river terraces that have cracked or soil.,NDMA_RVS_Primer-43-73.pdf,72
+EH,EH_POST_2.2,Soil & Foundation Conditions,Building has sustained uneven settlement of the ground.,NDMA_RVS_Primer-43-73.pdf,72
+EH,EH_POST_2.3,Soil & Foundation Conditions,Building is resting on liquefied soil.,NDMA_RVS_Primer-43-73.pdf,72
+EH,EH_POST_3.1,Structural Aspects,Building has separation at junction wood floor to vertical wood Red frame.,NDMA_RVS_Primer-43-73.pdf,72
+EH,EH_POST_3.2,Structural Aspects,Building has vertical walls out of plumb.,NDMA_RVS_Primer-43-73.pdf,73
+EH,EH_POST_3.3,Structural Aspects,Building has suffered gable collapse.,NDMA_RVS_Primer-43-73.pdf,73
+EH,EH_POST_3.4,Structural Aspects,Building has suffered extensive damage to masonry plinth.,NDMA_RVS_Primer-43-73.pdf,73
+EH,EH_POST_3.5,Structural Aspects,Building has suffered horizontal sliding at any storey.,NDMA_RVS_Primer-43-73.pdf,73
+EH,EH_POST_3.6,Structural Aspects,Building has differential settlement of vertical posts.,NDMA_RVS_Primer-43-73.pdf,73
+EH,EH_POST_4.1,Siting Issues,Building is adjacent to a failed slope.,NDMA_RVS_Primer-43-73.pdf,73
+EH,EH_POST_5.1,Structural Aspects,"Building has sustained collapse of cantilevers, balconies, chimneys Yellow and parapets.",NDMA_RVS_Primer-43-73.pdf,73
+EH,EH_POST_5.2,Structural Aspects,"Building has sustained extensive separation between wood frame Yellow members and infill wall, and has no damage in columns.",NDMA_RVS_Primer-43-73.pdf,73

@@ -141,12 +141,15 @@ class RAGPipeline:
         query_vec = np.asarray(self.embedder.encode([query]), dtype=np.float32)
         if query_vec.ndim == 1:
             query_vec = query_vec.reshape(1, -1)
-        if query_vec.shape[1] != store.dim and store.dim == 4096:
-            from seismic_damage.pipelines.rag.embedders import TfidfEmbedder
+        if query_vec.shape[1] != store.dim:
+            if store.dim == 4096:
+                from seismic_damage.pipelines.rag.embedders import TfidfEmbedder
 
-            self._embedder = TfidfEmbedder()
-            texts = [str(item.get("text") or "") for item in store.payloads]
-            self._embedder.fit(texts)
+                self._embedder = TfidfEmbedder()
+                texts = [str(item.get("text") or "") for item in store.payloads]
+                self._embedder.fit(texts)
+            else:
+                self._embedder = default_embedder(self.settings.rag.embedding_model)
             query_vec = np.asarray(self._embedder.encode([query]), dtype=np.float32)
             if query_vec.ndim == 1:
                 query_vec = query_vec.reshape(1, -1)
