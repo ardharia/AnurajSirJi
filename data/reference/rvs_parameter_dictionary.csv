@@ -25,7 +25,7 @@ RC,RC_RVS_8.2,Structural Aspects,Building has RC walls unsymmetrical in both dir
 RC,RC_RVS_8.3,Structural Aspects,Building has staircase at unsymmetrical location in plan.,NDMA_RVS_Primer-43-73.pdf,46
 RC,RC_RVS_8.4,Structural Aspects,Building has unanchored water tanks on roof.,NDMA_RVS_Primer-43-73.pdf,46
 RC,RC_RVS_9.1,Construction and Maintenance Details,Building has longitudinal cracks and/or spalling in Beams and Columns.,NDMA_RVS_Primer-43-73.pdf,46
-RC,RC_RVS_9.2,Construction and Maintenance Details,Building has poor construction quality material.,NDMA_RVS_Primer-43-73.pdf,46
+
 RC,RC_POST_1.1,Siting Issues,Building is resting on ground that has failed due to Landslide/Fissures and Liquefaction.,NDMA_RVS_Primer-43-73.pdf,47
 RC,RC_POST_1.2,Siting Issues,Building is tilted.,NDMA_RVS_Primer-43-73.pdf,47
 RC,RC_POST_1.3,Siting Issues,"Building is resting on hill slopes or adjacent to hill slopes, and has unsafe/tilted adjoining/uphill building or loose boulders.",NDMA_RVS_Primer-43-73.pdf,47
@@ -84,7 +84,7 @@ BCBM,BCBM_RVS_9.1,Features,Building has an irregular grid of masonry walls in pl
 BCBM,BCBM_RVS_9.2,Structural Aspects,Building has staircase at unsymmetrical location in plan.,NDMA_RVS_Primer-43-73.pdf,50
 BCBM,BCBM_RVS_9.3,Structural Aspects,Building has loosely placed country tiles on the roof.,NDMA_RVS_Primer-43-73.pdf,50
 BCBM,BCBM_RVS_10.1,Construction and Maintenance Details,Building has vertical cracks in masonry walls.,NDMA_RVS_Primer-43-73.pdf,50
-BCBM,BCBM_RVS_10.2,Construction and Maintenance Details,Building has poor construction quality material.,NDMA_RVS_Primer-43-73.pdf,50
+
 BCBM,BCBM_POST_1.1,Siting Issues,Building is resting on ground that has failed due to Landslide/Fissures and Liquefaction.,NDMA_RVS_Primer-43-73.pdf,51
 BCBM,BCBM_POST_1.2,Siting Issues,Building is tilted.,NDMA_RVS_Primer-43-73.pdf,51
 BCBM,BCBM_POST_1.3,Siting Issues,Building is resting on hill slopes or adjacent to hill slopes.,NDMA_RVS_Primer-43-73.pdf,51
@@ -142,7 +142,7 @@ CM,CM_RVS_8.4,Structural Aspects,Building has unanchored water tanks on roof.,ND
 CM,CM_RVS_8.5,Structural Aspects,Building has no anchorage of steel bar in Tie Columns into Yellow foundation.,NDMA_RVS_Primer-43-73.pdf,54
 CM,CM_RVS_8.6,Structural Aspects,Building has discontinuous Tie Beams at sill and lintel levels.,NDMA_RVS_Primer-43-73.pdf,54
 CM,CM_RVS_9.1,Construction and Maintenance Details,"Building has vertical cracks in masonry walls, and/or longitudinal Yellow cracks and spalling in Tie Beams and Tie Columns.",NDMA_RVS_Primer-43-73.pdf,54
-CM,CM_RVS_9.2,Construction and Maintenance Details,Building has poor construction quality material.,NDMA_RVS_Primer-43-73.pdf,54
+
 CM,CM_POST_1.1,Siting Issues,Building is resting on ground that has failed due to Red Landslide/Fissures and Liquefaction.,NDMA_RVS_Primer-43-73.pdf,55
 CM,CM_POST_1.2,Siting Issues,Building is tilted.,NDMA_RVS_Primer-43-73.pdf,55
 CM,CM_POST_1.3,Siting Issues,"Building is resting on hill slopes or adjacent to hill slopes, and has Red unsafe/tilted adjoining/uphill building or loose boulders.",NDMA_RVS_Primer-43-73.pdf,55

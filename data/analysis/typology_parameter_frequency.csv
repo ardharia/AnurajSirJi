@@ -4,42 +4,39 @@ BHUJ_2001,BCBM,3,RVS_PRIMER,BCBM_RVS_4.9,Building has cracks in walls.,1,33.3%
 BHUJ_2001,BCBM,3,RVS_PRIMER,BCBM_POST_3.9,Building has diagonal shear cracking in wall piers and/or spandrels.,1,33.3%
 BHUJ_2001,BCBM,3,RVS_PRIMER,BCBM_POST_5.1,"Building has sustained collapse of cantilevers, balconies, chimneys and parapets.",1,33.3%
 BHUJ_2001,BCBM,3,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_BCBM_01,Cyclic shear cracks in industrial brick masonry chimney,1,33.3%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_RVS_3.4,Building has an Open Storey (at ground /other level) with slender columns.,14,60.9%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_POST_3.3,Building has an Open storey (at ground /other level) with columns having shear cracks.,14,60.9%
-BHUJ_2001,RC,23,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_05,Collapse of intermediate storey in commercial RC frame,7,30.4%
-BHUJ_2001,RC,23,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_03,Rooftop swimming pool causing extreme mass irregularity and asymmetric torsional collapse,6,26.1%
-BHUJ_2001,RC,23,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_GEN_01,Common shared wall between adjacent buildings with differential response,6,26.1%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_RVS_9.2,Building has poor construction quality material.,6,26.1%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_RVS_8.4,Building has unanchored water tanks on roof.,4,17.4%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_POST_5.2,Building has water tanks on roof displaced from their supports.,4,17.4%
-BHUJ_2001,RC,23,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_02,Lack of core confinement / 90-degree ties with excessive longitudinal spacing,4,17.4%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_RVS_9.1,Building has longitudinal cracks and/or spalling in Beams and Columns.,4,17.4%
-BHUJ_2001,RC,23,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_06,Dislodging of weakly connected overhead water tank appendages,3,13.0%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_POST_3.9,Building has extensive X cracking or out-of-plane collapse of infills.,3,13.0%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_RVS_7.3,Building has large or heavy cantilever balconies or sunshades.,3,13.0%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_POST_3.5,Building has main load resisting columns with shear cracks.,3,13.0%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_RVS_8.2,Building has RC walls unsymmetrical in both directions.,3,13.0%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_RVS_3.6,Building has irregular plan geometry and or plan aspect ratio > 4.0.,2,8.7%
-BHUJ_2001,RC,23,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_04,Pancake collapse of multi-storey educational frame structure,2,8.7%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_RVS_3.5,Building has RC frame with Floating Columns.,2,8.7%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_POST_3.4,Building has Floating Columns with cracked supporting beams.,2,8.7%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_POST_5.1,"Building has sustained collapse of cantilevers, balconies, chimneys and parapets.",2,8.7%
-BHUJ_2001,RC,23,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_10,Insufficient connection between RC elevator core wall and adjacent framing,2,8.7%
-BHUJ_2001,RC,23,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_09,Shear cracks in cantilever stub beam supporting floating columns,1,4.3%
-BHUJ_2001,RC,23,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_07,Temporary steel section or wooden post propping of damaged open ground storeys,1,4.3%
-BHUJ_2001,RC,23,RVS_PRIMER,RC_POST_2.3,Building is resting on liquefied soil.,1,4.3%
-BHUJ_2001,RRSM,4,RVS_PRIMER,RRSM_POST_5.8,Building has floor-wall junction separated with walls out-of-plumb.,3,75.0%
-BHUJ_2001,RRSM,4,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RRSM_01,Out-of-plane collapse of stone masonry wall,2,50.0%
-BHUJ_2001,RRSM,4,RVS_PRIMER,RRSM_RVS_4.3,"Building has no continuous lintel band, roof band and gable band.",1,25.0%
-BHUJ_2001,RRSM,4,RVS_PRIMER,RRSM_RVS_4.5,Building has masonry walls not integrated into each other at corners.,1,25.0%
-BHUJ_2001,RRSM,4,RVS_PRIMER,RRSM_POST_5.4,Building has collapsed/damaged staircase/mumty or blockade of staircase.,1,25.0%
-BHUJ_2001,RRSM,4,RVS_PRIMER,RRSM_POST_5.7,Building has suffered separation of wall junctions at corners.,1,25.0%
-BHUJ_2001,RRSM,4,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RRSM_02,Collapse of staircase and building corner in multi-storey stone masonry,1,25.0%
-BHUJ_2001,RRSM,4,RVS_PRIMER,RRSM_RVS_4.6,Building has walls made with no or mud mortar exposed to vagaries.,1,25.0%
-BHUJ_2001,RRSM,4,RVS_PRIMER,RRSM_RVS_5.1,Building has walls made with mud mortar and deteriorated and cracked significantly owing to vagaries of outside weather (especially rainwater beating).,1,25.0%
-BHUJ_2001,UNKNOWN,50,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_08,Improper post-earthquake column jacketing not extended to foundations or beam joints,4,8.0%
-BHUJ_2001,UNKNOWN,50,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_03,Rooftop swimming pool causing extreme mass irregularity and asymmetric torsional collapse,1,2.0%
-BHUJ_2001,UNKNOWN,50,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_GEN_01,Common shared wall between adjacent buildings with differential response,1,2.0%
-BHUJ_2001,UNKNOWN,50,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_01,Inadequate lap length in longitudinal column reinforcement,1,2.0%
-BHUJ_2001,UNKNOWN,50,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_11,Dislodgement of precast roof panels atop precast frame due to inadequate connections,1,2.0%
-BHUJ_2001,UNKNOWN,50,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_GEN_02,Failure of welded tie connections between prestressed concrete trusses,1,2.0%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_RVS_3.4,Building has an Open Storey (at ground /other level) with slender columns.,24,45.3%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_POST_3.3,Building has an Open storey (at ground /other level) with columns having shear cracks.,24,45.3%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_03,Rooftop swimming pool causing extreme mass irregularity and asymmetric torsional collapse,9,17.0%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_GEN_01,Common shared wall between adjacent buildings with differential response,9,17.0%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_05,Collapse of intermediate storey in commercial RC frame,8,15.1%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_02,Lack of core confinement / 90-degree ties with excessive longitudinal spacing,5,9.4%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_POST_3.9,Building has extensive X cracking or out-of-plane collapse of infills.,5,9.4%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_RVS_8.2,Building has RC walls unsymmetrical in both directions.,5,9.4%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_RVS_3.6,Building has irregular plan geometry and or plan aspect ratio > 4.0.,4,7.5%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_04,Pancake collapse of multi-storey educational frame structure,4,7.5%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_RVS_8.4,Building has unanchored water tanks on roof.,4,7.5%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_POST_5.2,Building has water tanks on roof displaced from their supports.,4,7.5%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_RVS_9.1,Building has longitudinal cracks and/or spalling in Beams and Columns.,4,7.5%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_08,Improper post-earthquake column jacketing not extended to foundations or beam joints,4,7.5%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_06,Dislodging of weakly connected overhead water tank appendages,3,5.7%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_RVS_3.5,Building has RC frame with Floating Columns.,2,3.8%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_RVS_7.3,Building has large or heavy cantilever balconies or sunshades.,2,3.8%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_POST_3.4,Building has Floating Columns with cracked supporting beams.,2,3.8%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_POST_3.5,Building has main load resisting columns with shear cracks.,2,3.8%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_POST_5.1,"Building has sustained collapse of cantilevers, balconies, chimneys and parapets.",2,3.8%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_10,Insufficient connection between RC elevator core wall and adjacent framing,2,3.8%
+BHUJ_2001,RC,53,RVS_PRIMER,RC_POST_2.3,Building is resting on liquefied soil.,2,3.8%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_01,Inadequate lap length in longitudinal column reinforcement,1,1.9%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_09,Shear cracks in cantilever stub beam supporting floating columns,1,1.9%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_11,Dislodgement of precast roof panels atop precast frame due to inadequate connections,1,1.9%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_GEN_02,Failure of welded tie connections between prestressed concrete trusses,1,1.9%
+BHUJ_2001,RC,53,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RC_07,Temporary steel section or wooden post propping of damaged open ground storeys,1,1.9%
+BHUJ_2001,RRSM,25,RVS_PRIMER,RRSM_POST_5.8,Building has floor-wall junction separated with walls out-of-plumb.,5,20.0%
+BHUJ_2001,RRSM,25,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RRSM_01,Out-of-plane collapse of stone masonry wall,3,12.0%
+BHUJ_2001,RRSM,25,RVS_PRIMER,RRSM_RVS_4.3,"Building has no continuous lintel band, roof band and gable band.",1,4.0%
+BHUJ_2001,RRSM,25,RVS_PRIMER,RRSM_RVS_4.5,Building has masonry walls not integrated into each other at corners.,1,4.0%
+BHUJ_2001,RRSM,25,RVS_PRIMER,RRSM_POST_5.4,Building has collapsed/damaged staircase/mumty or blockade of staircase.,1,4.0%
+BHUJ_2001,RRSM,25,RVS_PRIMER,RRSM_POST_5.7,Building has suffered separation of wall junctions at corners.,1,4.0%
+BHUJ_2001,RRSM,25,ADDITIONAL_EARTHQUAKE_OBSERVED,ADD_RRSM_02,Collapse of staircase and building corner in multi-storey stone masonry,1,4.0%
+BHUJ_2001,RRSM,25,RVS_PRIMER,RRSM_RVS_4.6,Building has walls made with no or mud mortar exposed to vagaries.,1,4.0%
+BHUJ_2001,RRSM,25,RVS_PRIMER,RRSM_RVS_5.1,Building has walls made with mud mortar and deteriorated and cracked significantly owing to vagaries of outside weather (especially rainwater beating).,1,4.0%

@@ -123,8 +123,9 @@ KEYWORD_FALLBACK_RULES: List[Tuple[str, List[str]]] = [
             "dhajji diwari",
             "timber frame",
             "wood frame",
-            "timber",
-            "wood",
+            "timber post",
+            "timber roof",
+            "wooden post",
         ],
     ),
     (
@@ -598,12 +599,17 @@ def generate_typology_visualizations(
         primary_plot_path = plots_dir / f"{typ}_frequency.png"
         plt.savefig(primary_plot_path, dpi=160)
 
+        # Save typology_parameter_plot_{typ}.png in outputs/plots/
+        param_plot_path = plots_dir / f"typology_parameter_plot_{typ}.png"
+        plt.savefig(param_plot_path, dpi=160)
+
         # Save backward-compatible copy: outputs/typology_parameter_plot_{typology}.png
         compat_plot_path = outputs_dir / f"typology_parameter_plot_{typ}.png"
         plt.savefig(compat_plot_path, dpi=160)
 
         plt.close()
         saved_plots.append(primary_plot_path)
+        saved_plots.append(param_plot_path)
 
     return saved_plots
 
@@ -635,11 +641,39 @@ def main() -> None:
         bhuj_documents=bhuj_documents,
     )
 
-    # 3. Categorize under RVS typology with keyword fallback
+        # 3. Categorize under RVS typology with keyword fallback
     print("\n[Step 3/5] Categorizing RVS Typology with Keyword & RAG Fallback...")
     df_classified = classify_rvs_typologies_with_fallback(df_unique, rag=rag)
 
-    # Write building summary CSV
+    # -----------------------------------------------------------------
+    # Re‑classify any remaining UNKNOWN typology using the lightweight
+    # keyword‑based classifier from utils.classification.
+    # -----------------------------------------------------------------
+    from seismic_damage.utils.classification import classify_buildings as keyword_classify
+
+    unknown_mask = df_classified["building_typology"].isin(["UNKNOWN", "N/A", "", "NON_BUILDING", "DD"])
+    if unknown_mask.any():
+        unknown_rows = df_classified[unknown_mask]
+        records = [
+            {
+                "id": row["building_id"],
+                "notes": row.get("evidence_text", "") or row.get("building_description", ""),
+                "location": row.get("location", ""),
+                "rvs_format": True,
+            }
+            for _, row in unknown_rows.iterrows()
+        ]
+        kw_results = keyword_classify(records)
+        typology_map = {res["id"]: res["typology"] for res in kw_results}
+        confidence_map = {res["id"]: res["confidence"] for res in kw_results}
+        df_classified.loc[unknown_mask, "building_typology"] = df_classified.loc[unknown_mask, "building_id"].map(typology_map)
+        df_classified.loc[unknown_mask, "classification_method"] = "KEYWORD_CLASSIFIER"
+        df_classified.loc[unknown_mask, "typology_confidence"] = df_classified.loc[unknown_mask, "building_id"].map(confidence_map)
+
+    # Filter out non-building entities if any were marked during keyword classification
+    df_classified = df_classified[df_classified["building_typology"] != "NON_BUILDING"].copy()
+
+    # Write building summary CSV (updated after possible re‑classification)
     summary_path = outputs_dir / "building_summary.csv"
     df_summary = df_classified[[
         "building_id",
@@ -696,6 +730,35 @@ def main() -> None:
     # 5. Visualization Generation
     print("\n[Step 5/6] Generating Typology-Wise Parameter Frequency Plots...")
     saved_plots = generate_typology_visualizations(df_freq, outputs_dir=outputs_dir)
+
+    # Generate building typology counts bar plot
+    print("   Generating building typology counts plot...")
+    try:
+        from visualization.plot_building_typology_counts import main as plot_typology_counts
+        plot_typology_counts()
+        counts_plot_path = outputs_dir / "building_typology_counts.png"
+        if counts_plot_path.exists():
+            saved_plots.append(counts_plot_path)
+    except Exception as e:
+        print(f"   [Warning] Building typology counts plot failed: {e}")
+
+    # Generate normal distribution bell curves for all typologies
+    print("   Generating normal distribution bell curves for all typologies...")
+    try:
+        import sys
+        if str(project_root) not in sys.path:
+            sys.path.insert(0, str(project_root))
+        from scripts.vulnerability_parameter_analysis import run_vulnerability_pipeline
+        bell_results = run_vulnerability_pipeline(
+            csv_path=freq_dest,
+            output_dir=outputs_dir / "plots",
+            dpi=300,
+        )
+        for br in bell_results:
+            if br.plot_filepath and br.plot_filepath.exists():
+                saved_plots.append(br.plot_filepath)
+    except Exception as e:
+        print(f"   [Warning] Bell curve generation failed: {e}")
 
     # 6. Official Report Compilation (.docx and .pdf)
     print("\n[Step 6/6] Compiling Publication-Ready Word (.docx) & PDF Reports...")

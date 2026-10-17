@@ -27,18 +27,41 @@ def main() -> None:
     if "typology" not in df.columns:
         raise KeyError("Column 'typology' missing in building_summary.csv")
 
-    counts = df["typology"].value_counts().sort_index()
-    plt.figure(figsize=(10, 6))
-    counts.plot(kind="bar", color="#4C78A8")
-    plt.title("Number of Buildings per Typology")
-    plt.xlabel("Typology")
-    plt.ylabel("Number of Buildings")
-    plt.xticks(rotation=45, ha="right")
+    counts = df["typology"].value_counts().sort_values(ascending=False)
+    plt.figure(figsize=(9, 5.5))
+    ax = counts.plot(kind="bar", color="#2563EB", edgecolor="#1E3A8A", linewidth=1.2, width=0.55)
+    
+    # Annotate counts on top of bars
+    for p in ax.patches:
+        height = int(p.get_height())
+        ax.annotate(
+            f"{height}",
+            (p.get_x() + p.get_width() / 2.0, height),
+            ha="center",
+            va="bottom",
+            xytext=(0, 4),
+            textcoords="offset points",
+            fontweight="bold",
+            fontsize=10,
+        )
+
+    plt.title("Bhuj 2001 Earthquake: Number of Unique Buildings per Typology", fontsize=12, fontweight="bold", pad=12)
+    plt.xlabel("NDMA RVS Building Typology", fontsize=10, labelpad=8)
+    plt.ylabel("Number of Unique Buildings", fontsize=10, labelpad=8)
+    plt.xticks(rotation=0, fontsize=10)
+    plt.grid(axis="y", linestyle="--", alpha=0.5)
     plt.tight_layout()
+
     out_path = outputs_dir / "building_typology_counts.png"
-    plt.savefig(out_path, dpi=150)
+    plt.savefig(out_path, dpi=160)
+    
+    plots_dir = outputs_dir / "plots"
+    plots_dir.mkdir(parents=True, exist_ok=True)
+    plots_path = plots_dir / "building_typology_counts.png"
+    plt.savefig(plots_path, dpi=160)
+    
     plt.close()
-    print(f"Bar chart saved to {out_path}")
+    print(f"Bar chart saved to {out_path} and {plots_path}")
 
 
 if __name__ == "__main__":

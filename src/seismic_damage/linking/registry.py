@@ -42,9 +42,10 @@ NON_BUILDING_PATTERNS = [
     r"\bquake floods pakistan sugarcane farms\b",
     r"\bcars slowed down, alerting one\b",
     r"\bkandla, india's largest port, wears a deserted look\b",
-    r"\bsuresh bhai.*puts his hand into a crater\b",
-    r"\bmohan bhai.*inserts a stick into a crater\b",
-    r"\bnewly built checkposts\b",
+    r"\baerial view of the epicentre.*crater\b",
+    r"\bsalt marsh\b",
+    r"\bslide 8 of 33\b",
+    r"^2$",
 ]
 
 
